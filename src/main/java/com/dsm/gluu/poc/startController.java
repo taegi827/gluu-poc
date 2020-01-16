@@ -62,7 +62,7 @@ public class startController {
 	    body.add("scope", param.get("scope"));
 	    body.add("code", param.get("code"));
 	    body.add("grant_type", "authorization_code");
-	    body.add("redirect_uri", "http://192.168.0.191:8080/oauth/test");
+	    body.add("redirect_uri", "http://localhost:8080/oauth/test");
 
 	    Map<String, Object> out = new HashMap<>();
 	    out.put("authorize_response", param);
@@ -73,8 +73,7 @@ public class startController {
 	          RequestEntity
 	              .post(URI.create("https://testgluu.dsmcorps.com/oxauth/restv1/token"))
 	              .contentType(MediaType.APPLICATION_FORM_URLENCODED)
-	              .header("Authorization", "Basic " + Base64.getEncoder().encodeToString(
-	                  "4c90e69e-2984-4408-8b7d-528e8d1b7629:KEqyC306HpLvCOGzrY1GIfG1".getBytes()))
+	              .header("Authorization", "Basic " + pocClientCredential())
 	              .body(body),
 	          new ParameterizedTypeReference<HashMap<?, ?>>() {});
 	      out.put("token_reponse", response.getBody());
@@ -282,7 +281,7 @@ public class startController {
 
 	  private String pocClientCredential() {
 	    return Base64.getEncoder().encodeToString(
-	        "4c90e69e-2984-4408-8b7d-528e8d1b7629:KEqyC306HpLvCOGzrY1GIfG1".getBytes());
+	        "e38a9f04-5186-4450-8566-bbdda15e08ae:n5JHK3Lw2CCMuBwVIFhFu3e4".getBytes());
 	  }
 	
 	private RestTemplate sslIgnoreRestTemplate()
