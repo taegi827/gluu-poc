@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<script src="https://gitcdn.link/repo/GluuFederation/openid-implicit-client/master/openidconnect.js"></script>
+<script>
+var clientInfo = {
+  client_id : '4c90e69e-2984-4408-8b7d-528e8d1b7629',
+  redirect_uri : 'http://192.168.0.191:8080/callback.html'
+};
+var providerInfo = OIDC.discover('https://testgluu.dsmcorps.com');
+OIDC.setClientInfo( clientInfo );
+OIDC.setProviderInfo( providerInfo );
+OIDC.storeInfo(providerInfo, clientInfo);
+sessionStorage.removeItem('state');
+sessionStorage.removeItem('nonce');
+
+</script>
+<body>
+<!--    <input type="text" id="id_token" placeholder="id_token">-->
+    <button onclick="endSession()">로그아웃</button> <br>
+    <button onClick="OIDC.login( {scope : 'openid profile',
+                            response_type : 'token id_token'} );"
+        type="button">Implict</button> <br>
+    <button onclick="clientGrant()">Client Credential</button> <br>
+    <input type="text" id="username" placeholder="user_id">
+    <input type="password" id="password" placeholder="password">
+    <button onclick="resourceOwnerGrant()">Resource Owner Password Credentials</button> <br>
+    <button onclick="authorizationCodeGrant()">Authorization Code Grant Type</button> <br>
+    
+    accessToken : <input type="text" id="accessToken">
+	<button onclick="userInfo()">userInfo</button><br>
+	refreshToken : <input type="text" id="refreshToken">
+    <button onclick="refreshAccessToken()">refreshAccessToken</button>
+    
+</body>
+<script>
+
+function clientGrant() {
+  window.open('/oauth/client',
+    'pop01', 'top=10, left=10, width=500, height=600, status=no, menubar=no, toolbar=no, resizable=no');
+}
+
+function resourceOwnerGrant() {
+
+  var username = document.querySelector('#username').value;
+  var password = document.querySelector('#password').value;
+
+  if (!username) {
+    alert('아이디를 입력하세요.');
+  }
+
+  if (!password) {
+    alert('패스워드를 입력하세요.');
+  }
+
+  window.open('/oauth/resource?username='+username+'&password='+password,
+    'pop01', 'top=10, left=10, width=500, height=600, status=no, menubar=no, toolbar=no, resizable=no');
+}
+
+function authorizationCodeGrant() {
+  /* window.open('https://testgluu.dsmcorps.com/oxauth/restv1/authorize?scope=openid profile&response_type=code&client_id=4c90e69e-2984-4408-8b7d-528e8d1b7629&redirect_uri=http%3A%2F%2F192.168.0.191%3A8080%2Fauthorize%2Fcallback',
+    'pop01', 'top=10, left=10, width=500, height=600, status=no, menubar=no, toolbar=no, resizable=no'); */
+	document.token.location = 'https://testgluu.dsmcorps.com/oxauth/restv1/authorize?scope=openid profile&response_type=code&client_id=4c90e69e-2984-4408-8b7d-528e8d1b7629&redirect_uri=http%3A%2F%2F192.168.0.191%3A8080%2Fauthorize%2Fcallback';
+}
+
+function userInfo() {
+	 var accessToken = document.querySelector('#accessToken').value;
+	 window.open('/oauth/userInfo?accessToken='+accessToken,
+	       'pop01', 'top=10, left=10, width=500, height=600, status=no, menubar=no, toolbar=no, resizable=no');
+		}
+		
+function refreshAccessToken() {
+	var refreshToken = document.querySelector('#refreshToken').value;
+	document.token.location = '/oauth/refreshAccessToken?refreshToken='+refreshToken;
+	} 
+
+
+
+function endSession() {
+  // var value = document.querySelector('#id_token').value;
+
+  // if (!value) {
+  //   alert('id_token을 입력해주세요.');
+  //   return;
+  // }
+
+  var logout_redirect_uri = 'http://192.168.0.191:8080/logout.html';
+  var endSessionUrl = 'https://testgluu.dsmcorps.com/oxauth/restv1/end_session?&post_logout_redirect_uri=' + logout_redirect_uri;
+  location.href = endSessionUrl;
+}
+</script>
+<iframe name="token" width="100%" height="1000"></iframe>
+</html>
