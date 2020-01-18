@@ -35,6 +35,8 @@ ID : msyu / PWD : 1234
 
 Spring boot
 
+Maven
+
 openjdk-11
 
 localhost 환경 구축 후 test 진행
@@ -44,5 +46,19 @@ localhost 환경 구축 후 test 진행
 1. 현재 project를 local에 구성 해 보기
 2. local에서 정상 test 확인 해 보기
 3. 현재 project를 PHP로 변경 해 보기 (최종)
+
+# local 변경 사항
+
+2020.01.19
+-----------------------------------
+
+- /oauth/token
+
+access_token를 JWT 방식으로 발급 받지 않음.
+id_token에서 payload를 가져옴.
+
+- simple 화면 추가
+
+- localStorage 사용
 
 
