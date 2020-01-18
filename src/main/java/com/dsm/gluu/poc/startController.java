@@ -12,6 +12,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 import javax.net.ssl.SSLContext;
+import javax.servlet.http.HttpServlet;
 
 import org.apache.http.conn.ssl.SSLConnectionSocketFactory;
 import org.apache.http.conn.ssl.TrustStrategy;
@@ -31,9 +32,11 @@ import org.springframework.util.MultiValueMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.HttpClientErrorException;
 import org.springframework.web.client.RestClientException;
 import org.springframework.web.client.RestTemplate;
+import org.springframework.web.servlet.ModelAndView;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper; 
@@ -43,18 +46,74 @@ public class startController {
 	private static final Logger log = LoggerFactory.getLogger(GluuPoc1Application.class);
 	private ObjectMapper objectMapper;
 	
-	@ResponseBody
 	@RequestMapping("/authorize/callback")
-	  public Object test(@RequestParam Map<?, ?> param) throws NoSuchAlgorithmException,
+	  public String test(@RequestParam Map<?, ?> param) throws NoSuchAlgorithmException,
 	      KeyStoreException, KeyManagementException, IOException {
 
 	    log.info("authorize - callback");
 
 	    log.info("scope:"+param.get("scope"));
 	    log.info("code:"+param.get("code"));
-	    if (param.isEmpty()) {
-	      return Map.of("authorize_response", "empty");
-	    }
+	    log.info(pocClientCredential());
+//	    if (param.isEmpty()) {
+//	      return Map.of("authorize_response", "empty");
+//	    }
+
+	    RestTemplate restTemplate = sslIgnoreRestTemplate();
+
+	    MultiValueMap<String, Object> body = new LinkedMultiValueMap<>();
+	    body.add("scope", param.get("scope"));
+	    body.add("code", param.get("code"));
+	    body.add("grant_type", "authorization_code");
+	    body.add("redirect_uri", "http://localhost:8080/oauth/test");
+
+	    Map<String, Object> out = new HashMap<>();
+	    out.put("authorize_response", param);
+
+//	    try {
+//	      @SuppressWarnings("Convert2Diamond")
+//	      ResponseEntity<HashMap<?, ?>> response = restTemplate.exchange(
+//	          RequestEntity
+//	              .post(URI.create("https://testgluu.dsmcorps.com/oxauth/restv1/token"))
+//	              .contentType(MediaType.APPLICATION_FORM_URLENCODED)
+//	              .header("Authorization", "Basic " + pocClientCredential())
+//	              .body(body),
+//	          new ParameterizedTypeReference<HashMap<?, ?>>() {});
+//	      out.put("token_reponse", response.getBody());
+//
+//	      @SuppressWarnings("ConstantConditions")
+//	      final String accessToken = (String) response.getBody().get("access_token");
+//	      log.info("accessToken:"+accessToken);
+//	      final String payload =
+//	          new String(Base64.getDecoder().decode(accessToken.split("\\.")[1]));
+//
+//	      out.put("access_token_decoding", objectMapper.readValue(payload, HashMap.class));
+//
+//	    } catch (HttpClientErrorException e) {
+//	      out.put("token_response",
+//	          objectMapper.readValue(
+//	              e.getResponseBodyAsString(), new TypeReference<HashMap<String, Object>>() {}));
+//	    } catch (RestClientException e) {
+//	      log.error("error", e);
+//	    }
+	    
+	    
+	    return "/callback.html";
+	    
+	    
+	  }
+	
+	@ResponseBody
+	@RequestMapping("/oauth/token")
+	  public Object token(@RequestParam Map<?, ?> param) throws NoSuchAlgorithmException,
+	      KeyStoreException, KeyManagementException, IOException {
+
+		log.info("authorize - token");
+		
+		 log.info("scope:"+param.get("scope"));
+		 log.info("code:"+param.get("code"));
+		
+	    String tokenUrl = "https://testgluu.dsmcorps.com/oxauth/restv1/token";
 
 	    RestTemplate restTemplate = sslIgnoreRestTemplate();
 
@@ -71,7 +130,7 @@ public class startController {
 	      @SuppressWarnings("Convert2Diamond")
 	      ResponseEntity<HashMap<?, ?>> response = restTemplate.exchange(
 	          RequestEntity
-	              .post(URI.create("https://testgluu.dsmcorps.com/oxauth/restv1/token"))
+	              .post(URI.create(tokenUrl))
 	              .contentType(MediaType.APPLICATION_FORM_URLENCODED)
 	              .header("Authorization", "Basic " + pocClientCredential())
 	              .body(body),
@@ -79,10 +138,10 @@ public class startController {
 	      out.put("token_reponse", response.getBody());
 
 	      @SuppressWarnings("ConstantConditions")
-	      final String accessToken = (String) response.getBody().get("access_token");
-	      log.info("accessToken:"+accessToken);
+	      final String idToken = (String) response.getBody().get("id_token");
+	      log.info("idToken:"+idToken);
 	      final String payload =
-	          new String(Base64.getDecoder().decode(accessToken.split("\\.")[1]));
+	          new String(Base64.getDecoder().decode(idToken.split("\\.")[1]));
 
 	      out.put("access_token_decoding", objectMapper.readValue(payload, HashMap.class));
 
@@ -96,6 +155,7 @@ public class startController {
 
 	    return out;
 	  }
+	
 	
 	@RequestMapping("/oauth/test")
 	  public Object test2(@RequestParam Map<?, ?> param) {
@@ -218,18 +278,18 @@ public class startController {
 	      out.put("userInfo_response",
 	          objectMapper.readValue(
 	              e.getResponseBodyAsString(), new TypeReference<HashMap<String, Object>>() {}));
-	      return objectMapper.writerWithDefaultPrettyPrinter().writeValueAsString(out);
+	      return out;
 	    } catch (RestClientException e) {
 	      log.error("error", e);
 	    }
 	    
 	    if(systemCheck) {
-	    	return objectMapper.writerWithDefaultPrettyPrinter().writeValueAsString(out);
+	    	return out;
 	    }
 	    else {
 	    	out.clear();
 	    	out.put("Sys_Permission", "Permission denied!!");
-	    	return objectMapper.writerWithDefaultPrettyPrinter().writeValueAsString(out);
+	    	return out;
 	    }
 	    
 	  }
@@ -250,6 +310,7 @@ public class startController {
 
 	    Map<String, Object> out = new HashMap<>();
 
+	    
 	    try {
 	      @SuppressWarnings("Convert2Diamond")
 	      ResponseEntity<HashMap<String, Object>> responseEntity =
@@ -268,7 +329,7 @@ public class startController {
 	      log.error("error", e);
 	    }
 
-	    return objectMapper.writerWithDefaultPrettyPrinter().writeValueAsString(out);
+	    return out;
 	    
 	  }
 
