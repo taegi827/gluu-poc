@@ -124,6 +124,7 @@ public class startController {
 	    body.add("redirect_uri", "http://localhost:8080/oauth/test");
 
 	    Map<String, Object> out = new HashMap<>();
+	    Map<String, Object> out1 = new HashMap<>();
 	    out.put("authorize_response", param);
 
 	    try {
@@ -140,6 +141,10 @@ public class startController {
 	      @SuppressWarnings("ConstantConditions")
 	      final String idToken = (String) response.getBody().get("id_token");
 	      log.info("idToken:"+idToken);
+	      
+	      out1 = verify((String) response.getBody().get("access_token"));
+		  log.info("verify: "+out1.toString());
+		  
 	      final String payload =
 	          new String(Base64.getDecoder().decode(idToken.split("\\.")[1]));
 
@@ -248,7 +253,11 @@ public class startController {
 
 	    MultiValueMap<String, Object> body = new LinkedMultiValueMap<>();
 	    Map<String, Object> out = new HashMap<>();
-
+	    Map<String, Object> out1 = new HashMap<>();
+	    
+	    out1 = verify(accessToken);
+	    log.info("verify: "+out1.toString());
+	    
 	    try {
 	      @SuppressWarnings("Convert2Diamond")
 	      ResponseEntity<HashMap<String, Object>> responseEntity =
@@ -364,6 +373,42 @@ public class startController {
 	
 	    requestFactory.setHttpClient(httpClient);
 	    return new RestTemplate(requestFactory);
+	  }
+	
+	
+	private Map<String, Object> verify(String token
+			) throws NoSuchAlgorithmException, KeyStoreException, KeyManagementException, IOException{
+		
+		String verifyUrl = "https://testgluu.dsmcorps.com/oxauth/restv1/introspection";
+
+	    RestTemplate restTemplate = sslIgnoreRestTemplate();
+
+	    MultiValueMap<String, Object> body = new LinkedMultiValueMap<>();
+	    body.add("response_as_jwt", "false");
+	    body.add("token", token );
+
+	    Map<String, Object> out = new HashMap<>();
+
+	    
+	    try {
+	      @SuppressWarnings("Convert2Diamond")
+	      ResponseEntity<HashMap<String, Object>> responseEntity =
+	          restTemplate.exchange(
+	              RequestEntity.post(URI.create(verifyUrl))
+	                  .header("Authorization", "Basic " + pocClientCredential())
+	                  .contentType(MediaType.APPLICATION_FORM_URLENCODED)
+	                  .body(body),
+	              new ParameterizedTypeReference<HashMap<String, Object>>() {});
+	      out.put("response", responseEntity.getBody());
+	    } catch (HttpClientErrorException e) {
+	      out.put("verify_response",
+	          objectMapper.readValue(
+	              e.getResponseBodyAsString(), new TypeReference<HashMap<String, Object>>() {}));
+	    } catch (RestClientException e) {
+	      log.error("error", e);
+	    }
+		
+	    return out;
 	  }
 
 	
