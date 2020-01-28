@@ -2,6 +2,7 @@ package com.dsm.gluu.poc;
 
 import java.io.IOException;
 import java.net.URI;
+import java.security.InvalidKeyException;
 import java.security.KeyManagementException;
 import java.security.KeyStoreException;
 import java.security.NoSuchAlgorithmException;
@@ -11,6 +12,8 @@ import java.util.Base64;
 import java.util.HashMap;
 import java.util.Map;
 
+import javax.crypto.Mac;
+import javax.crypto.spec.SecretKeySpec;
 import javax.net.ssl.SSLContext;
 import javax.servlet.http.HttpServlet;
 
@@ -74,7 +77,7 @@ public class startController {
 //	      @SuppressWarnings("Convert2Diamond")
 //	      ResponseEntity<HashMap<?, ?>> response = restTemplate.exchange(
 //	          RequestEntity
-//	              .post(URI.create("https://testgluu.dsmcorps.com/oxauth/restv1/token"))
+//	              .post(URI.create("https://gluu.dsmcorps.com/oxauth/restv1/token"))
 //	              .contentType(MediaType.APPLICATION_FORM_URLENCODED)
 //	              .header("Authorization", "Basic " + pocClientCredential())
 //	              .body(body),
@@ -113,7 +116,7 @@ public class startController {
 		 log.info("scope:"+param.get("scope"));
 		 log.info("code:"+param.get("code"));
 		
-	    String tokenUrl = "https://testgluu.dsmcorps.com/oxauth/restv1/token";
+	    String tokenUrl = "https://gluu.dsmcorps.com/oxauth/restv1/token";
 
 	    RestTemplate restTemplate = sslIgnoreRestTemplate();
 
@@ -124,7 +127,6 @@ public class startController {
 	    body.add("redirect_uri", "http://localhost:8080/oauth/test");
 
 	    Map<String, Object> out = new HashMap<>();
-	    Map<String, Object> out1 = new HashMap<>();
 	    out.put("authorize_response", param);
 
 	    try {
@@ -142,9 +144,6 @@ public class startController {
 	      final String idToken = (String) response.getBody().get("id_token");
 	      log.info("idToken:"+idToken);
 	      
-	      out1 = verify((String) response.getBody().get("access_token"));
-		  log.info("verify: "+out1.toString());
-		  
 	      final String payload =
 	          new String(Base64.getDecoder().decode(idToken.split("\\.")[1]));
 
@@ -168,20 +167,24 @@ public class startController {
 	    return param;
 	  }
 	
+	@ResponseBody
 	@RequestMapping("/oauth/resource")
 	  public Object test3(@RequestParam("username") String username,
 	                      @RequestParam("password") String password) throws NoSuchAlgorithmException,
 	      KeyStoreException, KeyManagementException, IOException {
 
-	    String tokenUrl = "https://testgluu.dsmcorps.com/oxauth/restv1/token";
+		log.info("authorize - resource");
+		
+		String tokenUrl = "https://gluu.dsmcorps.com/oxauth/restv1/token";
 
 	    RestTemplate restTemplate = sslIgnoreRestTemplate();
 
 	    MultiValueMap<String, Object> body = new LinkedMultiValueMap<>();
-	    body.add("scope", "openid");
+	    body.add("scope", "openid profile");
 	    body.add("grant_type", "password");
 	    body.add("username", username);
 	    body.add("password", password);
+	    body.add("redirect_uri", "http://localhost:8080/oauth/test");
 
 	    Map<String, Object> out = new HashMap<>();
 
@@ -190,7 +193,7 @@ public class startController {
 	      ResponseEntity<HashMap<String, Object>> responseEntity =
 	          restTemplate.exchange(
 	              RequestEntity.post(URI.create(tokenUrl))
-	                  .header("Authorization", "Basic " + pocClientCredential())
+	                  .header("Authorization", "Basic " + passwordClientCredential())
 	                  .contentType(MediaType.APPLICATION_FORM_URLENCODED)
 	                  .body(body),
 	              new ParameterizedTypeReference<HashMap<String, Object>>() {});
@@ -209,7 +212,7 @@ public class startController {
 	 @RequestMapping("/oauth/client")
 	  public Object test4() throws NoSuchAlgorithmException, KeyStoreException, KeyManagementException, IOException {
 
-	    String tokenUrl = "https://testgluu.dsmcorps.com/oxauth/restv1/token";
+	    String tokenUrl = "https://gluu.dsmcorps.com/oxauth/restv1/token";
 
 	    RestTemplate restTemplate = sslIgnoreRestTemplate();
 
@@ -246,18 +249,21 @@ public class startController {
 			  ) throws NoSuchAlgorithmException, KeyStoreException, KeyManagementException, IOException {
 
 	    log.info("userInfo");  
-	    String userInfoUrl = "https://testgluu.dsmcorps.com/oxauth/restv1/userinfo";
+	    String userInfoUrl = "https://gluu.dsmcorps.com/oxauth/restv1/userinfo";
 
 	    boolean systemCheck = true;
 	    RestTemplate restTemplate = sslIgnoreRestTemplate();
 
 	    MultiValueMap<String, Object> body = new LinkedMultiValueMap<>();
 	    Map<String, Object> out = new HashMap<>();
-	    Map<String, Object> out1 = new HashMap<>();
+//	    Map<String, Object> out1 = new HashMap<>();
+//	    out1 = verify(accessToken);
+//	    log.info("verify: "+out1.toString());
 	    
-	    out1 = verify(accessToken);
-	    log.info("verify: "+out1.toString());
+	    boolean check =  verifySignature("ICU9ILRmww4uQPKrhPVzbeoO",
+	    		accessToken.split("\\.")[0]+"."+accessToken.split("\\.")[1],accessToken.split("\\.")[2]);
 	    
+	    if (check){
 	    try {
 	      @SuppressWarnings("Convert2Diamond")
 	      ResponseEntity<HashMap<String, Object>> responseEntity =
@@ -300,6 +306,12 @@ public class startController {
 	    	out.put("Sys_Permission", "Permission denied!!");
 	    	return out;
 	    }
+	  }
+	    else {
+	    	out.clear();
+	    	out.put("verifySignature", "invalid token");
+	    	return out;
+	    }
 	    
 	  }
 	  
@@ -309,7 +321,7 @@ public class startController {
 			  ) throws NoSuchAlgorithmException, KeyStoreException, KeyManagementException, IOException {
 
 	    log.info("refreshAccessToken");  
-	    String tokenUrl = "https://testgluu.dsmcorps.com/oxauth/restv1/token";
+	    String tokenUrl = "https://gluu.dsmcorps.com/oxauth/restv1/token";
 
 	    RestTemplate restTemplate = sslIgnoreRestTemplate();
 
@@ -349,10 +361,15 @@ public class startController {
 	    this.objectMapper = objectMapper;
 	  }
 
-	  private String pocClientCredential() {
+	  private String passwordClientCredential() {
 	    return Base64.getEncoder().encodeToString(
-	        "e38a9f04-5186-4450-8566-bbdda15e08ae:n5JHK3Lw2CCMuBwVIFhFu3e4".getBytes());
+	        "323a2818-32c8-4f85-8243-5f941d8a4eb7:cVGOXBzhQ3D1NFxC0CijG6kP".getBytes());
 	  }
+	  
+	  private String pocClientCredential() {
+		    return Base64.getEncoder().encodeToString(
+		        "d8c074dd-9232-42a2-8d48-d004a2325f0a:ICU9ILRmww4uQPKrhPVzbeoO".getBytes());
+		  }
 	
 	private RestTemplate sslIgnoreRestTemplate()
 	      throws KeyStoreException, NoSuchAlgorithmException, KeyManagementException {
@@ -379,7 +396,7 @@ public class startController {
 	private Map<String, Object> verify(String token
 			) throws NoSuchAlgorithmException, KeyStoreException, KeyManagementException, IOException{
 		
-		String verifyUrl = "https://testgluu.dsmcorps.com/oxauth/restv1/introspection";
+		String verifyUrl = "https://gluu.dsmcorps.com/oxauth/restv1/introspection";
 
 	    RestTemplate restTemplate = sslIgnoreRestTemplate();
 
@@ -410,6 +427,40 @@ public class startController {
 		
 	    return out;
 	  }
+	
+public static boolean verifySignature(String secret, String headerAndpayload, String signature) {
+        
+        log.info("verifySignature");
+        String match = "[^\\uAC00-\\uD7A3xfe0-9a-zA-Z\\\\s]";
+        String signature_A = "";
+        String signature_B = "";
+        
+        signature_A = signature.replaceAll(match, "");
+        
+        
+        try {
+            final String resultHex = getHexHash(secret, headerAndpayload);
+            signature_B = resultHex.replaceAll(match, "");
+            if (!signature_B.equals(signature_A)) {
+                log.info("HMAC does not match.");
+                return false;
+            }
+        } catch (Exception e) {
+            return false;
+        }
+        
+        return true;
+    }
+
+    private static String getHexHash(String secret, String headerAndpayload) throws NoSuchAlgorithmException, InvalidKeyException {
+        final String hmacSHA256 = "HmacSHA256";
+        final Mac hasher = Mac.getInstance(hmacSHA256);
+        hasher.init(new SecretKeySpec(secret.getBytes(), hmacSHA256));
+        final byte[] hash = hasher.doFinal(headerAndpayload.getBytes());
+
+        String encode = Base64.getEncoder().encodeToString(hash);
+        return encode;
+    }
 
 	
 	}

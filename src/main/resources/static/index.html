@@ -47,7 +47,7 @@ $(document).ready(function(){
 
 function login() {
 	
-	var url = 'https://testgluu.dsmcorps.com/oxauth/restv1/authorize?&scope=openid profile&response_type=code&client_id=e38a9f04-5186-4450-8566-bbdda15e08ae&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2Fauthorize%2Fcallback';
+	var url = 'https://gluu.dsmcorps.com/oxauth/restv1/authorize?&scope=openid profile&response_type=code&client_id=d8c074dd-9232-42a2-8d48-d004a2325f0a&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2Fauthorize%2Fcallback';
 	
 	location.href = url;
 	
@@ -64,7 +64,7 @@ function logout() {
 	
 	
 	var logout_redirect_uri = 'http://localhost:8080/logout.html';
-	var endSessionUrl = 'https://testgluu.dsmcorps.com/oxauth/restv1/end_session?&post_logout_redirect_uri=' + logout_redirect_uri;
+	var endSessionUrl = 'https://gluu.dsmcorps.com/oxauth/restv1/end_session?&post_logout_redirect_uri=' + logout_redirect_uri;
 	location.href = endSessionUrl;
 	
 	alert('로그아웃 되었습니다.');
@@ -129,6 +129,42 @@ function refresh() {
 		
 };
 
+function resourceOwnerGrant() {
+
+	  var username = document.querySelector('#username').value;
+	  var password = document.querySelector('#password').value;
+
+	  if (!username) {
+	    alert('아이디를 입력하세요.');
+	  }
+
+	  if (!password) {
+	    alert('패스워드를 입력하세요.');
+	  }
+
+	  
+	  $.ajax({
+		  type :'get'
+		, url : '/oauth/resource'
+		, cache : false
+		, data : {username : username,
+			      password : password
+			      }
+	    , contentType : "application/x-www-form-urlencoded"
+		, success:function(json) {
+			alert(JSON.stringify(json));
+			
+			localStorage.setItem('access_token',json.token_reponse.access_token);
+			localStorage.setItem('refresh_token',json.token_reponse.refresh_token);
+			localStorage.setItem('expires_in',json.token_reponse.expires_in);
+			
+	    }
+		,error:function(xhr,textStatus){
+			alert("ERROR."+xhr);
+		}
+	}); 
+	  
+};
 </script>
 <body>
 
@@ -148,8 +184,11 @@ function refresh() {
             <div class="form-group">
               <input type="text" id="tt" placeholder="time" class="form-control">
             </div>
+            <input type="text" id="username" placeholder="user_id">
+    		<input type="password" id="password" placeholder="password">
             <button onclick="javascript:login()" id="loginId" class="btn btn-success">Sign in</button>
             <button onclick="javascript:logout()" id="logoutId" class="btn btn-success">Sign out</button>
+            <button onclick="javascript:resourceOwnerGrant()" id="passwdCD" class="btn btn-success">Password Credentials</button> 
           </form>
         </div><!--/.navbar-collapse -->
       </div>

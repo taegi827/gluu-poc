@@ -23,6 +23,7 @@
 $(document).ready(function(){
 	
 	 var url = window.location.href;
+	 localStorage.setItem('url',url);
 	 var v_code = url.match('[?&]code=([^&]*)');
 	 var c_code = v_code[1];
 	  $.ajax({
