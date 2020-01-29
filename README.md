@@ -22,10 +22,10 @@
  
  5. 마지막으로 앞선 설정들을 읽어들이기 위해 httpd.conf 파일 맨 아래줄에 아래의 내용을 추가합니다.
  
- LoadModule jk_module modules/mod_jk.so
+	LoadModule jk_module modules/mod_jk.so
 
- JkWorkersFile conf/workers.properties
- JkLogFile logs/mod_jk.log
- JkLogLevel info
+	JkWorkersFile conf/workers.properties
+	JkLogFile logs/mod_jk.log
+	JkLogLevel info
 
- include conf/httpd_vhosts.conf
+	include conf/httpd_vhosts.conf
