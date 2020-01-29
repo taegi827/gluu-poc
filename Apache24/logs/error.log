@@ -1,0 +1,670 @@
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+pm_winnt:notice] [pid 22036:tid 712] AH00455: Apache/2.4.41 (Win64) configured -- resuming normal operations
+[Mon Jan 20 17:50:06.639311 2020] [mpm_winnt:notice] [pid 22036:tid 712] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Mon Jan 20 17:50:06.639311 2020] [core:notice] [pid 22036:tid 712] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Jan 20 17:50:06.642308 2020] [mpm_winnt:notice] [pid 22036:tid 712] AH00418: Parent: Created child process 10600
+[Mon Jan 20 17:50:08.554132 2020] [mpm_winnt:notice] [pid 10600:tid 560] AH00354: Child: Starting 64 worker threads.
+[Tue Jan 21 00:24:48.960490 2020] [mpm_winnt:notice] [pid 22036:tid 712] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Jan 21 00:24:51.054201 2020] [mpm_winnt:notice] [pid 10600:tid 560] AH00364: Child: All worker threads have exited.
+[Tue Jan 21 00:24:51.069826 2020] [mpm_winnt:notice] [pid 22036:tid 712] AH00430: Parent: Child process 10600 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+k:warn] [pid 15644:tid 612] No JkLogFile defined in httpd.conf. Using default C:/Apache24/logs/mod_jk.log
+[Tue Jan 21 09:07:10.543610 2020] [jk:warn] [pid 15644:tid 612] No JkLogFile defined in httpd.conf. Using default C:/Apache24/logs/mod_jk.log
+[Tue Jan 21 09:07:10.576590 2020] [jk:warn] [pid 15644:tid 612] No JkLogFile defined in httpd.conf. Using default C:/Apache24/logs/mod_jk.log
+[Tue Jan 21 09:07:10.577589 2020] [jk:warn] [pid 15644:tid 612] No JkLogFile defined in httpd.conf. Using default C:/Apache24/logs/mod_jk.log
+[Tue Jan 21 09:07:10.578588 2020] [mpm_winnt:notice] [pid 15644:tid 612] AH00455: Apache/2.4.41 (Win64) mod_jk/1.2.46 configured -- resuming normal operations
+[Tue Jan 21 09:07:10.578588 2020] [mpm_winnt:notice] [pid 15644:tid 612] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Tue Jan 21 09:07:10.578588 2020] [core:notice] [pid 15644:tid 612] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Jan 21 09:07:10.581587 2020] [mpm_winnt:notice] [pid 15644:tid 612] AH00418: Parent: Created child process 10928
+[Tue Jan 21 09:07:12.573367 2020] [jk:warn] [pid 10928:tid 540] No JkLogFile defined in httpd.conf. Using default C:/Apache24/logs/mod_jk.log
+[Tue Jan 21 09:07:12.575366 2020] [jk:warn] [pid 10928:tid 540] No JkLogFile defined in httpd.conf. Using default C:/Apache24/logs/mod_jk.log
+[Tue Jan 21 09:07:12.607346 2020] [jk:warn] [pid 10928:tid 540] No JkLogFile defined in httpd.conf. Using default C:/Apache24/logs/mod_jk.log
+[Tue Jan 21 09:07:12.607346 2020] [jk:warn] [pid 10928:tid 540] No JkLogFile defined in httpd.conf. Using default C:/Apache24/logs/mod_jk.log
+[Tue Jan 21 09:07:12.614343 2020] [mpm_winnt:notice] [pid 10928:tid 540] AH00354: Child: Starting 64 worker threads.
+The 'Apache2.4' service is restarting.
+Thee Jan 21 09:13:17.189177 2020] [mpm_winnt:notice] [pid 15644:tid 612] AH00424: Parent: Received restart signal -- Restarting the server.
+[Tue Jan 21 09:13:17.216162 2020] [jk:warn] [pid 15644:tid 612] No JkLogFile defined in httpd.conf. Using default C:/Apache24/logs/mod_jk.log
+[Tue Jan 21 09:13:17.216162 2020] [jk:warn] [pid 15644:tid 612] No JkLogFile defined in httpd.conf. Using default C:/Apache24/logs/mod_jk.log
+[Tue Jan 21 09:13:17.217161 2020] [mpm_winnt:notice] [pid 15644:tid 612] AH00455: Apache/2.4.41 (Win64) mod_jk/1.2.46 configured -- resuming normal operations
+[Tue Jan 21 09:13:17.217161 2020] [mpm_winnt:notice] [pid 15644:tid 612] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Tue Jan 21 09:13:17.217161 2020] [core:notice] [pid 15644:tid 612] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Jan 21 09:13:17.220158 2020] [mpm_winnt:notice] [pid 15644:tid 612] AH00418: Parent: Created child process 14840
+[Tue Jan 21 09:13:19.033049 2020] [jk:warn] [pid 14840:tid 516] No JkLogFile defined in httpd.conf. Using default C:/Apache24/logs/mod_jk.log
+[Tue Jan 21 09:13:19.035047 2020] [jk:warn] [pid 14840:tid 516] No JkLogFile defined in httpd.conf. Using default C:/Apache24/logs/mod_jk.log
+[Tue Jan 21 09:13:19.065030 2020] [jk:warn] [pid 14840:tid 516] No JkLogFile defined in httpd.conf. Using default C:/Apache24/logs/mod_jk.log
+[Tue Jan 21 09:13:19.066029 2020] [jk:warn] [pid 14840:tid 516] No JkLogFile defined in httpd.conf. Using default C:/Apache24/logs/mod_jk.log
+[Tue Jan 21 09:13:19.070026 2020] [mpm_winnt:notice] [pid 14840:tid 516] AH00354: Child: Starting 64 worker threads.
+[Tue Jan 21 09:13:19.190954 2020] [mpm_winnt:notice] [pid 10928:tid 540] AH00364: Child: All worker threads have exited.
+[Tue Jan 21 09:13:53.850735 2020] [mpm_winnt:notice] [pid 15644:tid 612] AH00428: Parent: child process 14840 exited with status 1 -- Restarting.
+[Tue Jan 21 09:13:53.876720 2020] [jk:warn] [pid 15644:tid 612] No JkLogFile defined in httpd.conf. Using default C:/Apache24/logs/mod_jk.log
+[Tue Jan 21 09:13:53.877719 2020] [jk:warn] [pid 15644:tid 612] No JkLogFile defined in httpd.conf. Using default C:/Apache24/logs/mod_jk.log
+[Tue Jan 21 09:13:53.878718 2020] [mpm_winnt:notice] [pid 15644:tid 612] AH00455: Apache/2.4.41 (Win64) mod_jk/1.2.46 configured -- resuming normal operations
+[Tue Jan 21 09:13:53.878718 2020] [mpm_winnt:notice] [pid 15644:tid 612] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Tue Jan 21 09:13:53.878718 2020] [core:notice] [pid 15644:tid 612] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Jan 21 09:13:53.881717 2020] [mpm_winnt:notice] [pid 15644:tid 612] AH00418: Parent: Created child process 17504
+[Tue Jan 21 09:13:55.734581 2020] [jk:warn] [pid 17504:tid 536] No JkLogFile defined in httpd.conf. Using default C:/Apache24/logs/mod_jk.log
+[Tue Jan 21 09:13:55.736580 2020] [jk:warn] [pid 17504:tid 536] No JkLogFile defined in httpd.conf. Using default C:/Apache24/logs/mod_jk.log
+[Tue Jan 21 09:13:55.768560 2020] [jk:warn] [pid 17504:tid 536] No JkLogFile defined in httpd.conf. Using default C:/Apache24/logs/mod_jk.log
+[Tue Jan 21 09:13:55.768560 2020] [jk:warn] [pid 17504:tid 536] No JkLogFile defined in httpd.conf. Using default C:/Apache24/logs/mod_jk.log
+[Tue Jan 21 09:13:55.772558 2020] [mpm_winnt:notice] [pid 17504:tid 536] AH00354: Child: Starting 64 worker threads.
+[Tue Jan 21 09:13:56.666011 2020] [mpm_winnt:notice] [pid 15644:tid 612] AH00428: Parent: child process 17504 exited with status 1 -- Restarting.
+[Tue Jan 21 09:13:56.693995 2020] [jk:warn] [pid 15644:tid 612] No JkLogFile defined in httpd.conf. Using default C:/Apache24/logs/mod_jk.log
+[Tue Jan 21 09:13:56.694995 2020] [jk:warn] [pid 15644:tid 612] No JkLogFile defined in httpd.conf. Using default C:/Apache24/logs/mod_jk.log
+[Tue Jan 21 09:13:56.695993 2020] [mpm_winnt:notice] [pid 15644:tid 612] AH00455: Apache/2.4.41 (Win64) mod_jk/1.2.46 configured -- resuming normal operations
+[Tue Jan 21 09:13:56.695993 2020] [mpm_winnt:notice] [pid 15644:tid 612] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Tue Jan 21 09:13:56.695993 2020] [core:notice] [pid 15644:tid 612] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Jan 21 09:13:56.698993 2020] [mpm_winnt:notice] [pid 15644:tid 612] AH00418: Parent: Created child process 18456
+[Tue Jan 21 09:13:58.574842 2020] [jk:warn] [pid 18456:tid 528] No JkLogFile defined in httpd.conf. Using default C:/Apache24/logs/mod_jk.log
+[Tue Jan 21 09:13:58.576842 2020] [jk:warn] [pid 18456:tid 528] No JkLogFile defined in httpd.conf. Using default C:/Apache24/logs/mod_jk.log
+[Tue Jan 21 09:13:58.605824 2020] [jk:warn] [pid 18456:tid 528] No JkLogFile defined in httpd.conf. Using default C:/Apache24/logs/mod_jk.log
+[Tue Jan 21 09:13:58.606823 2020] [jk:warn] [pid 18456:tid 528] No JkLogFile defined in httpd.conf. Using default C:/Apache24/logs/mod_jk.log
+[Tue Jan 21 09:13:58.610821 2020] [mpm_winnt:notice] [pid 18456:tid 528] AH00354: Child: Starting 64 worker threads.
+[Tue Jan 21 09:13:59.714145 2020] [mpm_winnt:crit] [pid 18456:tid 528] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Tue Jan 21 09:13:59.714145 2020] [mpm_winnt:warn] [pid 18456:tid 644] (OS 995)스레드 종료 또는 응용 프로그램 요청 때문에 I/O 작업이 취소되었습니다.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Tue Jan 21 09:13:59.714145 2020] [mpm_winnt:warn] [pid 18456:tid 648] (OS 995)스레드 종료 또는 응용 프로그램 요청 때문에 I/O 작업이 취소되었습니다.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Tue Jan 21 09:14:01.715923 2020] [mpm_winnt:notice] [pid 18456:tid 528] AH00364: Child: All worker threads have exited.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+k:warn] [pid 16572:tid 624] No JkLogFile defined in httpd.conf. Using default C:/Apache24/logs/mod_jk.log
+[Tue Jan 21 09:14:19.040315 2020] [jk:warn] [pid 16572:tid 624] No JkLogFile defined in httpd.conf. Using default C:/Apache24/logs/mod_jk.log
+[Tue Jan 21 09:14:19.068299 2020] [core:warn] [pid 16572:tid 624] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jan 21 09:14:19.070297 2020] [jk:warn] [pid 16572:tid 624] No JkLogFile defined in httpd.conf. Using default C:/Apache24/logs/mod_jk.log
+[Tue Jan 21 09:14:19.071296 2020] [jk:warn] [pid 16572:tid 624] No JkLogFile defined in httpd.conf. Using default C:/Apache24/logs/mod_jk.log
+[Tue Jan 21 09:14:19.072296 2020] [mpm_winnt:notice] [pid 16572:tid 624] AH00455: Apache/2.4.41 (Win64) mod_jk/1.2.46 configured -- resuming normal operations
+[Tue Jan 21 09:14:19.072296 2020] [mpm_winnt:notice] [pid 16572:tid 624] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Tue Jan 21 09:14:19.072296 2020] [core:notice] [pid 16572:tid 624] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Jan 21 09:14:19.075294 2020] [mpm_winnt:notice] [pid 16572:tid 624] AH00418: Parent: Created child process 16920
+[Tue Jan 21 09:14:20.919165 2020] [jk:warn] [pid 16920:tid 532] No JkLogFile defined in httpd.conf. Using default C:/Apache24/logs/mod_jk.log
+[Tue Jan 21 09:14:20.920164 2020] [jk:warn] [pid 16920:tid 532] No JkLogFile defined in httpd.conf. Using default C:/Apache24/logs/mod_jk.log
+[Tue Jan 21 09:14:20.954145 2020] [jk:warn] [pid 16920:tid 532] No JkLogFile defined in httpd.conf. Using default C:/Apache24/logs/mod_jk.log
+[Tue Jan 21 09:14:20.954145 2020] [jk:warn] [pid 16920:tid 532] No JkLogFile defined in httpd.conf. Using default C:/Apache24/logs/mod_jk.log
+[Tue Jan 21 09:14:20.961141 2020] [mpm_winnt:notice] [pid 16920:tid 532] AH00354: Child: Starting 64 worker threads.
+[Tue Jan 21 09:17:24.591735 2020] [mpm_winnt:notice] [pid 16572:tid 624] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Jan 21 09:17:26.593512 2020] [mpm_winnt:notice] [pid 16920:tid 532] AH00364: Child: All worker threads have exited.
+[Tue Jan 21 09:17:26.612501 2020] [mpm_winnt:notice] [pid 16572:tid 624] AH00430: Parent: Child process 16920 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+k:warn] [pid 5368:tid 620] No JkLogFile defined in httpd.conf. Using default C:/Apache24/logs/mod_jk.log
+[Tue Jan 21 09:17:49.718353 2020] [jk:warn] [pid 5368:tid 620] No JkLogFile defined in httpd.conf. Using default C:/Apache24/logs/mod_jk.log
+[Tue Jan 21 09:17:49.720353 2020] [mpm_winnt:notice] [pid 5368:tid 620] AH00455: Apache/2.4.41 (Win64) mod_jk/1.2.46 configured -- resuming normal operations
+[Tue Jan 21 09:17:49.720353 2020] [mpm_winnt:notice] [pid 5368:tid 620] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Tue Jan 21 09:17:49.720353 2020] [core:notice] [pid 5368:tid 620] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Jan 21 09:17:49.723351 2020] [mpm_winnt:notice] [pid 5368:tid 620] AH00418: Parent: Created child process 13336
+[Tue Jan 21 09:17:51.605201 2020] [jk:warn] [pid 13336:tid 564] No JkLogFile defined in httpd.conf. Using default C:/Apache24/logs/mod_jk.log
+[Tue Jan 21 09:17:51.638179 2020] [jk:warn] [pid 13336:tid 564] No JkLogFile defined in httpd.conf. Using default C:/Apache24/logs/mod_jk.log
+[Tue Jan 21 09:17:51.645175 2020] [mpm_winnt:notice] [pid 13336:tid 564] AH00354: Child: Starting 64 worker threads.
+[Tue Jan 21 09:21:50.116201 2020] [mpm_winnt:notice] [pid 5368:tid 620] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Jan 21 09:21:52.117974 2020] [mpm_winnt:notice] [pid 13336:tid 564] AH00364: Child: All worker threads have exited.
+[Tue Jan 21 09:21:52.133964 2020] [mpm_winnt:notice] [pid 5368:tid 620] AH00430: Parent: Child process 13336 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+k:warn] [pid 19076:tid 612] No JkLogFile defined in httpd.conf. Using default C:/Apache24/logs/mod_jk.log
+[Tue Jan 21 09:23:02.126122 2020] [jk:warn] [pid 19076:tid 612] No JkLogFile defined in httpd.conf. Using default C:/Apache24/logs/mod_jk.log
+[Tue Jan 21 09:23:02.156103 2020] [jk:warn] [pid 19076:tid 612] No JkLogFile defined in httpd.conf. Using default C:/Apache24/logs/mod_jk.log
+[Tue Jan 21 09:23:02.156103 2020] [jk:warn] [pid 19076:tid 612] No JkLogFile defined in httpd.conf. Using default C:/Apache24/logs/mod_jk.log
+[Tue Jan 21 09:23:02.157102 2020] [mpm_winnt:notice] [pid 19076:tid 612] AH00455: Apache/2.4.41 (Win64) mod_jk/1.2.46 configured -- resuming normal operations
+[Tue Jan 21 09:23:02.157102 2020] [mpm_winnt:notice] [pid 19076:tid 612] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Tue Jan 21 09:23:02.157102 2020] [core:notice] [pid 19076:tid 612] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Jan 21 09:23:02.160100 2020] [mpm_winnt:notice] [pid 19076:tid 612] AH00418: Parent: Created child process 18640
+[Tue Jan 21 09:23:04.118902 2020] [jk:warn] [pid 18640:tid 556] No JkLogFile defined in httpd.conf. Using default C:/Apache24/logs/mod_jk.log
+[Tue Jan 21 09:23:04.119902 2020] [jk:warn] [pid 18640:tid 556] No JkLogFile defined in httpd.conf. Using default C:/Apache24/logs/mod_jk.log
+[Tue Jan 21 09:23:04.150882 2020] [jk:warn] [pid 18640:tid 556] No JkLogFile defined in httpd.conf. Using default C:/Apache24/logs/mod_jk.log
+[Tue Jan 21 09:23:04.150882 2020] [jk:warn] [pid 18640:tid 556] No JkLogFile defined in httpd.conf. Using default C:/Apache24/logs/mod_jk.log
+[Tue Jan 21 09:23:04.157877 2020] [mpm_winnt:notice] [pid 18640:tid 556] AH00354: Child: Starting 64 worker threads.
+[Tue Jan 21 09:27:49.652118 2020] [mpm_winnt:notice] [pid 19076:tid 612] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Jan 21 09:27:51.653895 2020] [mpm_winnt:notice] [pid 18640:tid 556] AH00364: Child: All worker threads have exited.
+[Tue Jan 21 09:27:51.672884 2020] [mpm_winnt:notice] [pid 19076:tid 612] AH00430: Parent: Child process 18640 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+k:warn] [pid 18296:tid 612] No JkLogFile defined in httpd.conf. Using default C:/Apache24/logs/mod_jk.log
+[Tue Jan 21 09:29:58.778078 2020] [jk:warn] [pid 18296:tid 612] No JkLogFile defined in httpd.conf. Using default C:/Apache24/logs/mod_jk.log
+[Tue Jan 21 09:29:58.809057 2020] [jk:warn] [pid 18296:tid 612] No JkLogFile defined in httpd.conf. Using default C:/Apache24/logs/mod_jk.log
+[Tue Jan 21 09:29:58.810056 2020] [jk:warn] [pid 18296:tid 612] No JkLogFile defined in httpd.conf. Using default C:/Apache24/logs/mod_jk.log
+[Tue Jan 21 09:29:58.811055 2020] [mpm_winnt:notice] [pid 18296:tid 612] AH00455: Apache/2.4.41 (Win64) mod_jk/1.2.46 configured -- resuming normal operations
+[Tue Jan 21 09:29:58.811055 2020] [mpm_winnt:notice] [pid 18296:tid 612] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Tue Jan 21 09:29:58.811055 2020] [core:notice] [pid 18296:tid 612] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Jan 21 09:29:58.814053 2020] [mpm_winnt:notice] [pid 18296:tid 612] AH00418: Parent: Created child process 12984
+[Tue Jan 21 09:30:00.671918 2020] [jk:warn] [pid 12984:tid 516] No JkLogFile defined in httpd.conf. Using default C:/Apache24/logs/mod_jk.log
+[Tue Jan 21 09:30:00.673917 2020] [jk:warn] [pid 12984:tid 516] No JkLogFile defined in httpd.conf. Using default C:/Apache24/logs/mod_jk.log
+[Tue Jan 21 09:30:00.703898 2020] [jk:warn] [pid 12984:tid 516] No JkLogFile defined in httpd.conf. Using default C:/Apache24/logs/mod_jk.log
+[Tue Jan 21 09:30:00.704898 2020] [jk:warn] [pid 12984:tid 516] No JkLogFile defined in httpd.conf. Using default C:/Apache24/logs/mod_jk.log
+[Tue Jan 21 09:30:00.710895 2020] [mpm_winnt:notice] [pid 12984:tid 516] AH00354: Child: Starting 64 worker threads.
+[Tue Jan 21 09:31:56.538994 2020] [mpm_winnt:notice] [pid 18296:tid 612] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Jan 21 09:31:58.540772 2020] [mpm_winnt:notice] [pid 12984:tid 516] AH00364: Child: All worker threads have exited.
+[Tue Jan 21 09:31:58.559759 2020] [mpm_winnt:notice] [pid 18296:tid 612] AH00430: Parent: Child process 12984 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+k:warn] [pid 19476:tid 612] No JkLogFile defined in httpd.conf. Using default C:/Apache24/logs/mod_jk.log
+[Tue Jan 21 09:36:07.548015 2020] [jk:warn] [pid 19476:tid 612] No JkLogFile defined in httpd.conf. Using default C:/Apache24/logs/mod_jk.log
+[Tue Jan 21 09:36:07.578995 2020] [jk:warn] [pid 19476:tid 612] No JkLogFile defined in httpd.conf. Using default C:/Apache24/logs/mod_jk.log
+[Tue Jan 21 09:36:07.578995 2020] [jk:warn] [pid 19476:tid 612] No JkLogFile defined in httpd.conf. Using default C:/Apache24/logs/mod_jk.log
+[Tue Jan 21 09:36:07.580994 2020] [mpm_winnt:notice] [pid 19476:tid 612] AH00455: Apache/2.4.41 (Win64) mod_jk/1.2.46 configured -- resuming normal operations
+[Tue Jan 21 09:36:07.580994 2020] [mpm_winnt:notice] [pid 19476:tid 612] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Tue Jan 21 09:36:07.580994 2020] [core:notice] [pid 19476:tid 612] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Jan 21 09:36:07.583992 2020] [mpm_winnt:notice] [pid 19476:tid 612] AH00418: Parent: Created child process 19060
+[Tue Jan 21 09:36:09.470836 2020] [jk:warn] [pid 19060:tid 608] No JkLogFile defined in httpd.conf. Using default C:/Apache24/logs/mod_jk.log
+[Tue Jan 21 09:36:09.471835 2020] [jk:warn] [pid 19060:tid 608] No JkLogFile defined in httpd.conf. Using default C:/Apache24/logs/mod_jk.log
+[Tue Jan 21 09:36:09.503815 2020] [jk:warn] [pid 19060:tid 608] No JkLogFile defined in httpd.conf. Using default C:/Apache24/logs/mod_jk.log
+[Tue Jan 21 09:36:09.504815 2020] [jk:warn] [pid 19060:tid 608] No JkLogFile defined in httpd.conf. Using default C:/Apache24/logs/mod_jk.log
+[Tue Jan 21 09:36:09.511811 2020] [mpm_winnt:notice] [pid 19060:tid 608] AH00354: Child: Starting 64 worker threads.
+[Tue Jan 21 09:38:09.383442 2020] [mpm_winnt:notice] [pid 19476:tid 612] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Jan 21 09:38:11.385211 2020] [mpm_winnt:notice] [pid 19060:tid 608] AH00364: Child: All worker threads have exited.
+[Tue Jan 21 09:38:11.404200 2020] [mpm_winnt:notice] [pid 19476:tid 612] AH00430: Parent: Child process 19060 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+k:warn] [pid 19652:tid 612] No JkLogFile defined in httpd.conf. Using default C:/Apache24/logs/mod_jk.log
+[Tue Jan 21 09:38:29.617050 2020] [jk:warn] [pid 19652:tid 612] No JkLogFile defined in httpd.conf. Using default C:/Apache24/logs/mod_jk.log
+[Tue Jan 21 09:38:29.647032 2020] [jk:warn] [pid 19652:tid 612] No JkLogFile defined in httpd.conf. Using default C:/Apache24/logs/mod_jk.log
+[Tue Jan 21 09:38:29.648032 2020] [jk:warn] [pid 19652:tid 612] No JkLogFile defined in httpd.conf. Using default C:/Apache24/logs/mod_jk.log
+[Tue Jan 21 09:38:29.649031 2020] [mpm_winnt:notice] [pid 19652:tid 612] AH00455: Apache/2.4.41 (Win64) mod_jk/1.2.46 configured -- resuming normal operations
+[Tue Jan 21 09:38:29.649031 2020] [mpm_winnt:notice] [pid 19652:tid 612] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Tue Jan 21 09:38:29.649031 2020] [core:notice] [pid 19652:tid 612] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Jan 21 09:38:29.652028 2020] [mpm_winnt:notice] [pid 19652:tid 612] AH00418: Parent: Created child process 4304
+[Tue Jan 21 09:38:31.599834 2020] [jk:warn] [pid 4304:tid 536] No JkLogFile defined in httpd.conf. Using default C:/Apache24/logs/mod_jk.log
+[Tue Jan 21 09:38:31.601833 2020] [jk:warn] [pid 4304:tid 536] No JkLogFile defined in httpd.conf. Using default C:/Apache24/logs/mod_jk.log
+[Tue Jan 21 09:38:31.631816 2020] [jk:warn] [pid 4304:tid 536] No JkLogFile defined in httpd.conf. Using default C:/Apache24/logs/mod_jk.log
+[Tue Jan 21 09:38:31.632816 2020] [jk:warn] [pid 4304:tid 536] No JkLogFile defined in httpd.conf. Using default C:/Apache24/logs/mod_jk.log
+[Tue Jan 21 09:38:31.638812 2020] [mpm_winnt:notice] [pid 4304:tid 536] AH00354: Child: Starting 64 worker threads.
+[Tue Jan 21 09:49:18.902563 2020] [mpm_winnt:notice] [pid 19652:tid 612] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Jan 21 09:49:20.904338 2020] [mpm_winnt:notice] [pid 4304:tid 536] AH00364: Child: All worker threads have exited.
+[Tue Jan 21 09:49:20.923326 2020] [mpm_winnt:notice] [pid 19652:tid 612] AH00430: Parent: Child process 4304 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+k:warn] [pid 19068:tid 612] No JkLogFile defined in httpd.conf. Using default C:/Apache24/logs/mod_jk.log
+[Tue Jan 21 09:49:32.472259 2020] [jk:warn] [pid 19068:tid 612] No JkLogFile defined in httpd.conf. Using default C:/Apache24/logs/mod_jk.log
+[Tue Jan 21 09:49:32.503237 2020] [jk:warn] [pid 19068:tid 612] No JkLogFile defined in httpd.conf. Using default C:/Apache24/logs/mod_jk.log
+[Tue Jan 21 09:49:32.504238 2020] [jk:warn] [pid 19068:tid 612] No JkLogFile defined in httpd.conf. Using default C:/Apache24/logs/mod_jk.log
+[Tue Jan 21 09:49:32.505239 2020] [mpm_winnt:notice] [pid 19068:tid 612] AH00455: Apache/2.4.41 (Win64) mod_jk/1.2.46 configured -- resuming normal operations
+[Tue Jan 21 09:49:32.505239 2020] [mpm_winnt:notice] [pid 19068:tid 612] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Tue Jan 21 09:49:32.505239 2020] [core:notice] [pid 19068:tid 612] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Jan 21 09:49:32.508236 2020] [mpm_winnt:notice] [pid 19068:tid 612] AH00418: Parent: Created child process 19432
+[Tue Jan 21 09:49:34.432057 2020] [jk:warn] [pid 19432:tid 560] No JkLogFile defined in httpd.conf. Using default C:/Apache24/logs/mod_jk.log
+[Tue Jan 21 09:49:34.434056 2020] [jk:warn] [pid 19432:tid 560] No JkLogFile defined in httpd.conf. Using default C:/Apache24/logs/mod_jk.log
+[Tue Jan 21 09:49:34.465037 2020] [jk:warn] [pid 19432:tid 560] No JkLogFile defined in httpd.conf. Using default C:/Apache24/logs/mod_jk.log
+[Tue Jan 21 09:49:34.466036 2020] [jk:warn] [pid 19432:tid 560] No JkLogFile defined in httpd.conf. Using default C:/Apache24/logs/mod_jk.log
+[Tue Jan 21 09:49:34.472033 2020] [mpm_winnt:notice] [pid 19432:tid 560] AH00354: Child: Starting 64 worker threads.
+[Tue Jan 21 09:52:42.638851 2020] [mpm_winnt:notice] [pid 19068:tid 612] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Jan 21 09:52:44.640626 2020] [mpm_winnt:notice] [pid 19432:tid 560] AH00364: Child: All worker threads have exited.
+[Tue Jan 21 09:52:44.659617 2020] [mpm_winnt:notice] [pid 19068:tid 612] AH00430: Parent: Child process 19432 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+k:warn] [pid 18632:tid 612] No JkLogFile defined in httpd.conf. Using default C:/Apache24/logs/mod_jk.log
+[Tue Jan 21 09:52:52.928552 2020] [jk:warn] [pid 18632:tid 612] No JkLogFile defined in httpd.conf. Using default C:/Apache24/logs/mod_jk.log
+[Tue Jan 21 09:52:52.930551 2020] [mpm_winnt:notice] [pid 18632:tid 612] AH00455: Apache/2.4.41 (Win64) mod_jk/1.2.46 configured -- resuming normal operations
+[Tue Jan 21 09:52:52.930551 2020] [mpm_winnt:notice] [pid 18632:tid 612] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Tue Jan 21 09:52:52.930551 2020] [core:notice] [pid 18632:tid 612] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Jan 21 09:52:52.933550 2020] [mpm_winnt:notice] [pid 18632:tid 612] AH00418: Parent: Created child process 18744
+[Tue Jan 21 09:52:54.829388 2020] [jk:warn] [pid 18744:tid 528] No JkLogFile defined in httpd.conf. Using default C:/Apache24/logs/mod_jk.log
+[Tue Jan 21 09:52:54.861370 2020] [jk:warn] [pid 18744:tid 528] No JkLogFile defined in httpd.conf. Using default C:/Apache24/logs/mod_jk.log
+[Tue Jan 21 09:52:54.868365 2020] [mpm_winnt:notice] [pid 18744:tid 528] AH00354: Child: Starting 64 worker threads.
+[Tue Jan 21 09:55:20.421268 2020] [mpm_winnt:notice] [pid 18632:tid 612] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Jan 21 09:55:22.423045 2020] [mpm_winnt:notice] [pid 18744:tid 528] AH00364: Child: All worker threads have exited.
+[Tue Jan 21 09:55:22.442034 2020] [mpm_winnt:notice] [pid 18632:tid 612] AH00430: Parent: Child process 18744 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+k:warn] [pid 19348:tid 620] No JkLogFile defined in httpd.conf. Using default C:/Apache24/logs/mod_jk.log
+[Tue Jan 21 09:55:28.919067 2020] [jk:warn] [pid 19348:tid 620] No JkLogFile defined in httpd.conf. Using default C:/Apache24/logs/mod_jk.log
+[Tue Jan 21 09:55:28.920066 2020] [mpm_winnt:notice] [pid 19348:tid 620] AH00455: Apache/2.4.41 (Win64) mod_jk/1.2.46 configured -- resuming normal operations
+[Tue Jan 21 09:55:28.920066 2020] [mpm_winnt:notice] [pid 19348:tid 620] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Tue Jan 21 09:55:28.920066 2020] [core:notice] [pid 19348:tid 620] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Jan 21 09:55:28.923064 2020] [mpm_winnt:notice] [pid 19348:tid 620] AH00418: Parent: Created child process 20296
+[Tue Jan 21 09:55:30.811908 2020] [jk:warn] [pid 20296:tid 552] No JkLogFile defined in httpd.conf. Using default C:/Apache24/logs/mod_jk.log
+[Tue Jan 21 09:55:30.843888 2020] [jk:warn] [pid 20296:tid 552] No JkLogFile defined in httpd.conf. Using default C:/Apache24/logs/mod_jk.log
+[Tue Jan 21 09:55:30.850884 2020] [mpm_winnt:notice] [pid 20296:tid 552] AH00354: Child: Starting 64 worker threads.
+[Tue Jan 21 09:57:35.790404 2020] [mpm_winnt:notice] [pid 19348:tid 620] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Jan 21 09:57:37.791183 2020] [mpm_winnt:notice] [pid 20296:tid 552] AH00364: Child: All worker threads have exited.
+[Tue Jan 21 09:57:37.810171 2020] [mpm_winnt:notice] [pid 19348:tid 620] AH00430: Parent: Child process 20296 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+k:warn] [pid 9584:tid 612] No JkLogFile defined in httpd.conf. Using default C:/Apache24/logs/mod_jk.log
+[Tue Jan 21 09:57:44.259220 2020] [jk:warn] [pid 9584:tid 612] No JkLogFile defined in httpd.conf. Using default C:/Apache24/logs/mod_jk.log
+[Tue Jan 21 09:57:44.290201 2020] [jk:warn] [pid 9584:tid 612] No JkLogFile defined in httpd.conf. Using default C:/Apache24/logs/mod_jk.log
+[Tue Jan 21 09:57:44.290201 2020] [jk:warn] [pid 9584:tid 612] No JkLogFile defined in httpd.conf. Using default C:/Apache24/logs/mod_jk.log
+[Tue Jan 21 09:57:44.291200 2020] [mpm_winnt:notice] [pid 9584:tid 612] AH00455: Apache/2.4.41 (Win64) mod_jk/1.2.46 configured -- resuming normal operations
+[Tue Jan 21 09:57:44.291200 2020] [mpm_winnt:notice] [pid 9584:tid 612] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Tue Jan 21 09:57:44.291200 2020] [core:notice] [pid 9584:tid 612] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Jan 21 09:57:44.294199 2020] [mpm_winnt:notice] [pid 9584:tid 612] AH00418: Parent: Created child process 9832
+[Tue Jan 21 09:57:46.152063 2020] [jk:warn] [pid 9832:tid 516] No JkLogFile defined in httpd.conf. Using default C:/Apache24/logs/mod_jk.log
+[Tue Jan 21 09:57:46.154062 2020] [jk:warn] [pid 9832:tid 516] No JkLogFile defined in httpd.conf. Using default C:/Apache24/logs/mod_jk.log
+[Tue Jan 21 09:57:46.185041 2020] [jk:warn] [pid 9832:tid 516] No JkLogFile defined in httpd.conf. Using default C:/Apache24/logs/mod_jk.log
+[Tue Jan 21 09:57:46.185041 2020] [jk:warn] [pid 9832:tid 516] No JkLogFile defined in httpd.conf. Using default C:/Apache24/logs/mod_jk.log
+[Tue Jan 21 09:57:46.192037 2020] [mpm_winnt:notice] [pid 9832:tid 516] AH00354: Child: Starting 64 worker threads.
+[Tue Jan 21 09:58:17.227039 2020] [mpm_winnt:notice] [pid 9584:tid 612] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Jan 21 09:58:19.228817 2020] [mpm_winnt:notice] [pid 9832:tid 516] AH00364: Child: All worker threads have exited.
+[Tue Jan 21 09:58:19.247805 2020] [mpm_winnt:notice] [pid 9584:tid 612] AH00430: Parent: Child process 9832 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+k:warn] [pid 11432:tid 632] No JkLogFile defined in httpd.conf. Using default C:/Apache24/logs/mod_jk.log
+[Tue Jan 21 09:58:25.498976 2020] [jk:warn] [pid 11432:tid 632] No JkLogFile defined in httpd.conf. Using default C:/Apache24/logs/mod_jk.log
+[Tue Jan 21 09:58:25.530956 2020] [jk:warn] [pid 11432:tid 632] No JkLogFile defined in httpd.conf. Using default C:/Apache24/logs/mod_jk.log
+[Tue Jan 21 09:58:25.531956 2020] [jk:warn] [pid 11432:tid 632] No JkLogFile defined in httpd.conf. Using default C:/Apache24/logs/mod_jk.log
+[Tue Jan 21 09:58:25.532955 2020] [mpm_winnt:notice] [pid 11432:tid 632] AH00455: Apache/2.4.41 (Win64) mod_jk/1.2.46 configured -- resuming normal operations
+[Tue Jan 21 09:58:25.532955 2020] [mpm_winnt:notice] [pid 11432:tid 632] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Tue Jan 21 09:58:25.532955 2020] [core:notice] [pid 11432:tid 632] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Jan 21 09:58:25.535953 2020] [mpm_winnt:notice] [pid 11432:tid 632] AH00418: Parent: Created child process 6700
+[Tue Jan 21 09:58:27.435792 2020] [jk:warn] [pid 6700:tid 636] No JkLogFile defined in httpd.conf. Using default C:/Apache24/logs/mod_jk.log
+[Tue Jan 21 09:58:27.437790 2020] [jk:warn] [pid 6700:tid 636] No JkLogFile defined in httpd.conf. Using default C:/Apache24/logs/mod_jk.log
+[Tue Jan 21 09:58:27.467772 2020] [jk:warn] [pid 6700:tid 636] No JkLogFile defined in httpd.conf. Using default C:/Apache24/logs/mod_jk.log
+[Tue Jan 21 09:58:27.468771 2020] [jk:warn] [pid 6700:tid 636] No JkLogFile defined in httpd.conf. Using default C:/Apache24/logs/mod_jk.log
+[Tue Jan 21 09:58:27.474768 2020] [mpm_winnt:notice] [pid 6700:tid 636] AH00354: Child: Starting 64 worker threads.
+[Tue Jan 21 10:00:25.390589 2020] [mpm_winnt:notice] [pid 11432:tid 632] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Jan 21 10:00:27.392365 2020] [mpm_winnt:notice] [pid 6700:tid 636] AH00364: Child: All worker threads have exited.
+[Tue Jan 21 10:00:27.411353 2020] [mpm_winnt:notice] [pid 11432:tid 632] AH00430: Parent: Child process 6700 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+k:warn] [pid 18496:tid 612] No JkLogFile defined in httpd.conf. Using default C:/Apache24/logs/mod_jk.log
+[Tue Jan 21 10:00:34.982715 2020] [jk:warn] [pid 18496:tid 612] No JkLogFile defined in httpd.conf. Using default C:/Apache24/logs/mod_jk.log
+[Tue Jan 21 10:00:34.984714 2020] [mpm_winnt:notice] [pid 18496:tid 612] AH00455: Apache/2.4.41 (Win64) mod_jk/1.2.46 configured -- resuming normal operations
+[Tue Jan 21 10:00:34.984714 2020] [mpm_winnt:notice] [pid 18496:tid 612] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Tue Jan 21 10:00:34.984714 2020] [core:notice] [pid 18496:tid 612] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Jan 21 10:00:34.987712 2020] [mpm_winnt:notice] [pid 18496:tid 612] AH00418: Parent: Created child process 19444
+[Tue Jan 21 10:00:36.862566 2020] [jk:warn] [pid 19444:tid 528] No JkLogFile defined in httpd.conf. Using default C:/Apache24/logs/mod_jk.log
+[Tue Jan 21 10:00:36.919531 2020] [jk:warn] [pid 19444:tid 528] No JkLogFile defined in httpd.conf. Using default C:/Apache24/logs/mod_jk.log
+[Tue Jan 21 10:00:36.933525 2020] [mpm_winnt:notice] [pid 19444:tid 528] AH00354: Child: Starting 64 worker threads.
+[Tue Jan 21 10:07:52.926245 2020] [mpm_winnt:notice] [pid 18496:tid 612] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Jan 21 10:07:54.928022 2020] [mpm_winnt:notice] [pid 19444:tid 528] AH00364: Child: All worker threads have exited.
+[Tue Jan 21 10:07:54.947011 2020] [mpm_winnt:notice] [pid 18496:tid 612] AH00430: Parent: Child process 19444 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+pm_winnt:notice] [pid 224:tid 696] AH00455: Apache/2.4.41 (Win64) mod_jk/1.2.46 configured -- resuming normal operations
+[Tue Jan 21 10:16:54.107973 2020] [mpm_winnt:notice] [pid 224:tid 696] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Tue Jan 21 10:16:54.107973 2020] [core:notice] [pid 224:tid 696] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Jan 21 10:16:54.110972 2020] [mpm_winnt:notice] [pid 224:tid 696] AH00418: Parent: Created child process 17956
+[Tue Jan 21 10:16:56.029796 2020] [mpm_winnt:notice] [pid 17956:tid 668] AH00354: Child: Starting 64 worker threads.
+[Tue Jan 21 10:19:09.116330 2020] [mpm_winnt:notice] [pid 224:tid 696] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Jan 21 10:19:11.118107 2020] [mpm_winnt:notice] [pid 17956:tid 668] AH00364: Child: All worker threads have exited.
+[Tue Jan 21 10:19:11.137093 2020] [mpm_winnt:notice] [pid 224:tid 696] AH00430: Parent: Child process 17956 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+pm_winnt:notice] [pid 19508:tid 696] AH00455: Apache/2.4.41 (Win64) mod_jk/1.2.46 configured -- resuming normal operations
+[Tue Jan 21 10:19:59.393555 2020] [mpm_winnt:notice] [pid 19508:tid 696] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Tue Jan 21 10:19:59.393555 2020] [core:notice] [pid 19508:tid 696] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Jan 21 10:19:59.396553 2020] [mpm_winnt:notice] [pid 19508:tid 696] AH00418: Parent: Created child process 9832
+[Tue Jan 21 10:20:01.397328 2020] [mpm_winnt:notice] [pid 9832:tid 644] AH00354: Child: Starting 64 worker threads.
+[Tue Jan 21 10:21:01.972248 2020] [mpm_winnt:notice] [pid 19508:tid 696] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Jan 21 10:21:31.972886 2020] [mpm_winnt:notice] [pid 19508:tid 696] AH00431: Parent: Forcing termination of child process 9832
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+pm_winnt:notice] [pid 16128:tid 696] AH00455: Apache/2.4.41 (Win64) mod_jk/1.2.46 configured -- resuming normal operations
+[Tue Jan 21 10:22:37.508777 2020] [mpm_winnt:notice] [pid 16128:tid 696] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Tue Jan 21 10:22:37.508777 2020] [core:notice] [pid 16128:tid 696] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Jan 21 10:22:37.511765 2020] [mpm_winnt:notice] [pid 16128:tid 696] AH00418: Parent: Created child process 18412
+[Tue Jan 21 10:22:39.391617 2020] [mpm_winnt:notice] [pid 18412:tid 648] AH00354: Child: Starting 64 worker threads.
+[Tue Jan 21 10:55:33.523194 2020] [mpm_winnt:notice] [pid 16128:tid 696] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Jan 21 10:55:35.524971 2020] [mpm_winnt:notice] [pid 18412:tid 648] AH00364: Child: All worker threads have exited.
+[Tue Jan 21 10:55:35.543960 2020] [mpm_winnt:notice] [pid 16128:tid 696] AH00430: Parent: Child process 18412 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+pm_winnt:notice] [pid 20600:tid 696] AH00455: Apache/2.4.41 (Win64) mod_jk/1.2.46 configured -- resuming normal operations
+[Tue Jan 21 10:55:44.929211 2020] [mpm_winnt:notice] [pid 20600:tid 696] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Tue Jan 21 10:55:44.929211 2020] [core:notice] [pid 20600:tid 696] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Jan 21 10:55:44.932210 2020] [mpm_winnt:notice] [pid 20600:tid 696] AH00418: Parent: Created child process 18020
+[Tue Jan 21 10:55:46.820057 2020] [mpm_winnt:notice] [pid 18020:tid 644] AH00354: Child: Starting 64 worker threads.
+[Tue Jan 21 10:55:50.985504 2020] [mpm_winnt:crit] [pid 18020:tid 644] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Tue Jan 21 10:55:50.985504 2020] [mpm_winnt:warn] [pid 18020:tid 628] (OS 995)스레드 종료 또는 응용 프로그램 요청 때문에 I/O 작업이 취소되었습니다.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Tue Jan 21 10:55:50.985504 2020] [mpm_winnt:warn] [pid 18020:tid 648] (OS 995)스레드 종료 또는 응용 프로그램 요청 때문에 I/O 작업이 취소되었습니다.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Tue Jan 21 10:55:50.986504 2020] [mpm_winnt:error] [pid 18020:tid 628] (OS 10038)소켓 이외의 개체에 작업을 시도했습니다.  : AH00337: Child: Encountered too many AcceptEx faults accepting client connections. Possible causes: dynamic address renewal, or incompatible VPN or firewall software. 
+[Tue Jan 21 10:55:50.986504 2020] [mpm_winnt:error] [pid 18020:tid 648] (OS 10038)소켓 이외의 개체에 작업을 시도했습니다.  : AH00337: Child: Encountered too many AcceptEx faults accepting client connections. Possible causes: dynamic address renewal, or incompatible VPN or firewall software. 
+[Tue Jan 21 10:55:50.986504 2020] [mpm_winnt:notice] [pid 18020:tid 628] (OS 10038)소켓 이외의 개체에 작업을 시도했습니다.  : AH00338: winnt_mpm: falling back to 'AcceptFilter none'.
+[Tue Jan 21 10:55:50.986504 2020] [mpm_winnt:notice] [pid 18020:tid 648] (OS 10038)소켓 이외의 개체에 작업을 시도했습니다.  : AH00338: winnt_mpm: falling back to 'AcceptFilter none'.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+ore:warn] [pid 17928:tid 624] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jan 21 10:55:57.828318 2020] [mpm_winnt:notice] [pid 17928:tid 624] AH00455: Apache/2.4.41 (Win64) mod_jk/1.2.46 configured -- resuming normal operations
+[Tue Jan 21 10:55:57.828318 2020] [mpm_winnt:notice] [pid 17928:tid 624] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Tue Jan 21 10:55:57.828318 2020] [core:notice] [pid 17928:tid 624] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Jan 21 10:55:57.830317 2020] [mpm_winnt:notice] [pid 17928:tid 624] AH00418: Parent: Created child process 19384
+[Tue Jan 21 10:55:59.689178 2020] [mpm_winnt:notice] [pid 19384:tid 648] AH00354: Child: Starting 64 worker threads.
+[Tue Jan 21 10:56:41.169785 2020] [mpm_winnt:notice] [pid 17928:tid 624] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Jan 21 10:57:11.171423 2020] [mpm_winnt:notice] [pid 17928:tid 624] AH00431: Parent: Forcing termination of child process 19384
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+pm_winnt:notice] [pid 20240:tid 716] AH00455: Apache/2.4.41 (Win64) mod_jk/1.2.46 configured -- resuming normal operations
+[Tue Jan 21 10:57:28.438852 2020] [mpm_winnt:notice] [pid 20240:tid 716] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Tue Jan 21 10:57:28.438852 2020] [core:notice] [pid 20240:tid 716] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Jan 21 10:57:28.442849 2020] [mpm_winnt:notice] [pid 20240:tid 716] AH00418: Parent: Created child process 6048
+[Tue Jan 21 10:57:30.489597 2020] [mpm_winnt:notice] [pid 6048:tid 648] AH00354: Child: Starting 64 worker threads.
+[Tue Jan 21 10:59:00.775329 2020] [mpm_winnt:notice] [pid 20240:tid 716] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Jan 21 10:59:17.917839 2020] [mpm_winnt:notice] [pid 6048:tid 648] AH00364: Child: All worker threads have exited.
+[Tue Jan 21 10:59:17.936825 2020] [mpm_winnt:notice] [pid 20240:tid 716] AH00430: Parent: Child process 6048 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+pm_winnt:notice] [pid 20524:tid 712] AH00455: Apache/2.4.41 (Win64) mod_jk/1.2.46 configured -- resuming normal operations
+[Tue Jan 21 10:59:40.291143 2020] [mpm_winnt:notice] [pid 20524:tid 712] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Tue Jan 21 10:59:40.291143 2020] [core:notice] [pid 20524:tid 712] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Jan 21 10:59:40.294141 2020] [mpm_winnt:notice] [pid 20524:tid 712] AH00418: Parent: Created child process 19368
+[Tue Jan 21 10:59:42.173990 2020] [mpm_winnt:notice] [pid 19368:tid 656] AH00354: Child: Starting 64 worker threads.
+[Tue Jan 21 11:03:14.145235 2020] [mpm_winnt:notice] [pid 20524:tid 712] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Jan 21 11:03:16.147012 2020] [mpm_winnt:notice] [pid 19368:tid 656] AH00364: Child: All worker threads have exited.
+[Tue Jan 21 11:03:16.166000 2020] [mpm_winnt:notice] [pid 20524:tid 712] AH00430: Parent: Child process 19368 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+pm_winnt:notice] [pid 21176:tid 696] AH00455: Apache/2.4.41 (Win64) mod_jk/1.2.46 configured -- resuming normal operations
+[Tue Jan 21 11:03:25.315397 2020] [mpm_winnt:notice] [pid 21176:tid 696] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Tue Jan 21 11:03:25.315397 2020] [core:notice] [pid 21176:tid 696] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Jan 21 11:03:25.318395 2020] [mpm_winnt:notice] [pid 21176:tid 696] AH00418: Parent: Created child process 19592
+[Tue Jan 21 11:03:27.330164 2020] [mpm_winnt:notice] [pid 19592:tid 648] AH00354: Child: Starting 64 worker threads.
+[Tue Jan 21 11:04:20.376692 2020] [mpm_winnt:notice] [pid 21176:tid 696] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Jan 21 11:04:25.911308 2020] [mpm_winnt:notice] [pid 19592:tid 648] AH00364: Child: All worker threads have exited.
+[Tue Jan 21 11:04:25.930294 2020] [mpm_winnt:notice] [pid 21176:tid 696] AH00430: Parent: Child process 19592 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+pm_winnt:notice] [pid 16760:tid 696] AH00455: Apache/2.4.41 (Win64) mod_jk/1.2.46 configured -- resuming normal operations
+[Tue Jan 21 11:04:32.307390 2020] [mpm_winnt:notice] [pid 16760:tid 696] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Tue Jan 21 11:04:32.307390 2020] [core:notice] [pid 16760:tid 696] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Jan 21 11:04:32.310389 2020] [mpm_winnt:notice] [pid 16760:tid 696] AH00418: Parent: Created child process 19960
+[Tue Jan 21 11:04:34.180245 2020] [mpm_winnt:notice] [pid 19960:tid 648] AH00354: Child: Starting 64 worker threads.
+[Tue Jan 21 13:06:27.155029 2020] [mpm_winnt:notice] [pid 16760:tid 696] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Jan 21 13:06:39.452504 2020] [mpm_winnt:notice] [pid 19960:tid 648] AH00364: Child: All worker threads have exited.
+[Tue Jan 21 13:06:39.471490 2020] [mpm_winnt:notice] [pid 16760:tid 696] AH00430: Parent: Child process 19960 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+pm_winnt:notice] [pid 23308:tid 696] AH00455: Apache/2.4.41 (Win64) mod_jk/1.2.46 configured -- resuming normal operations
+[Tue Jan 21 13:06:46.691070 2020] [mpm_winnt:notice] [pid 23308:tid 696] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Tue Jan 21 13:06:46.691070 2020] [core:notice] [pid 23308:tid 696] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Jan 21 13:06:46.694070 2020] [mpm_winnt:notice] [pid 23308:tid 696] AH00418: Parent: Created child process 3936
+[Tue Jan 21 13:06:48.585910 2020] [mpm_winnt:notice] [pid 3936:tid 648] AH00354: Child: Starting 64 worker threads.
+[Tue Jan 21 13:07:46.126688 2020] [mpm_winnt:notice] [pid 23308:tid 696] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Jan 21 13:08:05.287962 2020] [mpm_winnt:notice] [pid 3936:tid 648] AH00364: Child: All worker threads have exited.
+[Tue Jan 21 13:08:05.306950 2020] [mpm_winnt:notice] [pid 23308:tid 696] AH00430: Parent: Child process 3936 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+pm_winnt:notice] [pid 22644:tid 696] AH00455: Apache/2.4.41 (Win64) mod_jk/1.2.46 configured -- resuming normal operations
+[Tue Jan 21 13:08:11.588103 2020] [mpm_winnt:notice] [pid 22644:tid 696] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Tue Jan 21 13:08:11.588103 2020] [core:notice] [pid 22644:tid 696] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Jan 21 13:08:11.590102 2020] [mpm_winnt:notice] [pid 22644:tid 696] AH00418: Parent: Created child process 11248
+[Tue Jan 21 13:08:13.469950 2020] [mpm_winnt:notice] [pid 11248:tid 648] AH00354: Child: Starting 64 worker threads.
+[Tue Jan 21 15:22:35.656203 2020] [mpm_winnt:notice] [pid 22644:tid 696] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Jan 21 15:22:37.656981 2020] [mpm_winnt:notice] [pid 11248:tid 648] AH00364: Child: All worker threads have exited.
+[Tue Jan 21 15:22:37.676969 2020] [mpm_winnt:notice] [pid 22644:tid 696] AH00430: Parent: Child process 11248 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+pm_winnt:notice] [pid 28128:tid 696] AH00455: Apache/2.4.41 (Win64) mod_jk/1.2.46 configured -- resuming normal operations
+[Tue Jan 21 15:22:53.329386 2020] [mpm_winnt:notice] [pid 28128:tid 696] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Tue Jan 21 15:22:53.329386 2020] [core:notice] [pid 28128:tid 696] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Jan 21 15:22:53.331385 2020] [mpm_winnt:notice] [pid 28128:tid 696] AH00418: Parent: Created child process 27864
+[Tue Jan 21 15:22:55.229223 2020] [mpm_winnt:notice] [pid 27864:tid 648] AH00354: Child: Starting 64 worker threads.
+[Tue Jan 21 16:56:17.326899 2020] [mpm_winnt:notice] [pid 28128:tid 696] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Jan 21 16:56:19.328674 2020] [mpm_winnt:notice] [pid 27864:tid 648] AH00364: Child: All worker threads have exited.
+[Tue Jan 21 16:56:19.343664 2020] [mpm_winnt:notice] [pid 28128:tid 696] AH00430: Parent: Child process 27864 exited successfully.
+[Tue Jan 21 16:59:06.426653 2020] [mpm_winnt:notice] [pid 4292:tid 820] AH00455: Apache/2.4.41 (Win64) mod_jk/1.2.46 configured -- resuming normal operations
+[Tue Jan 21 16:59:06.426653 2020] [mpm_winnt:notice] [pid 4292:tid 820] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Tue Jan 21 16:59:06.426653 2020] [core:notice] [pid 4292:tid 820] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Jan 21 16:59:06.426653 2020] [mpm_winnt:notice] [pid 4292:tid 820] AH00418: Parent: Created child process 6844
+[Tue Jan 21 16:59:07.572255 2020] [mpm_winnt:notice] [pid 6844:tid 564] AH00354: Child: Starting 64 worker threads.
+[Tue Jan 21 17:00:50.407317 2020] [mpm_winnt:crit] [pid 6844:tid 564] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Tue Jan 21 17:00:50.407317 2020] [mpm_winnt:warn] [pid 6844:tid 4] (OS 995)스레드 종료 또는 응용 프로그램 요청 때문에 I/O 작업이 취소되었습니다.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Tue Jan 21 17:00:50.407317 2020] [mpm_winnt:warn] [pid 6844:tid 1220] (OS 995)스레드 종료 또는 응용 프로그램 요청 때문에 I/O 작업이 취소되었습니다.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Tue Jan 21 17:00:52.409080 2020] [mpm_winnt:notice] [pid 6844:tid 564] AH00364: Child: All worker threads have exited.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+ore:warn] [pid 17296:tid 612] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jan 21 17:58:28.302576 2020] [mpm_winnt:notice] [pid 17296:tid 612] AH00455: Apache/2.4.41 (Win64) mod_jk/1.2.46 configured -- resuming normal operations
+[Tue Jan 21 17:58:28.302576 2020] [mpm_winnt:notice] [pid 17296:tid 612] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Tue Jan 21 17:58:28.302576 2020] [core:notice] [pid 17296:tid 612] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Jan 21 17:58:28.305574 2020] [mpm_winnt:notice] [pid 17296:tid 612] AH00418: Parent: Created child process 9448
+[Tue Jan 21 17:58:30.271359 2020] [mpm_winnt:notice] [pid 9448:tid 648] AH00354: Child: Starting 64 worker threads.
+[Tue Jan 21 18:58:49.790107 2020] [mpm_winnt:notice] [pid 17296:tid 612] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Jan 21 18:58:51.791869 2020] [mpm_winnt:notice] [pid 9448:tid 648] AH00364: Child: All worker threads have exited.
+[Tue Jan 21 18:58:51.810857 2020] [mpm_winnt:notice] [pid 17296:tid 612] AH00430: Parent: Child process 9448 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+pm_winnt:notice] [pid 8528:tid 696] AH00455: Apache/2.4.41 (Win64) mod_jk/1.2.46 configured -- resuming normal operations
+[Wed Jan 22 08:51:34.552583 2020] [mpm_winnt:notice] [pid 8528:tid 696] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Wed Jan 22 08:51:34.552583 2020] [core:notice] [pid 8528:tid 696] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Wed Jan 22 08:51:34.555581 2020] [mpm_winnt:notice] [pid 8528:tid 696] AH00418: Parent: Created child process 17824
+[Wed Jan 22 08:51:36.621305 2020] [mpm_winnt:notice] [pid 17824:tid 660] AH00354: Child: Starting 64 worker threads.
+[Wed Jan 22 09:29:26.000768 2020] [mpm_winnt:notice] [pid 8528:tid 696] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Jan 22 09:29:28.002534 2020] [mpm_winnt:notice] [pid 17824:tid 660] AH00364: Child: All worker threads have exited.
+[Wed Jan 22 09:29:28.021520 2020] [mpm_winnt:notice] [pid 8528:tid 696] AH00430: Parent: Child process 17824 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+pm_winnt:notice] [pid 19728:tid 696] AH00455: Apache/2.4.41 (Win64) mod_jk/1.2.46 configured -- resuming normal operations
+[Wed Jan 22 09:30:54.985173 2020] [mpm_winnt:notice] [pid 19728:tid 696] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Wed Jan 22 09:30:54.985173 2020] [core:notice] [pid 19728:tid 696] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Wed Jan 22 09:30:54.988172 2020] [mpm_winnt:notice] [pid 19728:tid 696] AH00418: Parent: Created child process 16912
+[Wed Jan 22 09:30:56.945962 2020] [mpm_winnt:notice] [pid 16912:tid 648] AH00354: Child: Starting 64 worker threads.
+[Wed Jan 22 11:29:25.068115 2020] [mpm_winnt:notice] [pid 19728:tid 696] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Jan 22 11:29:27.069881 2020] [mpm_winnt:notice] [pid 16912:tid 648] AH00364: Child: All worker threads have exited.
+[Wed Jan 22 11:29:27.089868 2020] [mpm_winnt:notice] [pid 19728:tid 696] AH00430: Parent: Child process 16912 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+pm_winnt:notice] [pid 11080:tid 696] AH00455: Apache/2.4.41 (Win64) mod_jk/1.2.46 configured -- resuming normal operations
+[Wed Jan 22 11:29:37.481446 2020] [mpm_winnt:notice] [pid 11080:tid 696] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Wed Jan 22 11:29:37.481446 2020] [core:notice] [pid 11080:tid 696] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Wed Jan 22 11:29:37.484444 2020] [mpm_winnt:notice] [pid 11080:tid 696] AH00418: Parent: Created child process 9824
+[Wed Jan 22 11:29:39.404258 2020] [mpm_winnt:notice] [pid 9824:tid 648] AH00354: Child: Starting 64 worker threads.
+[Wed Jan 22 11:30:35.370856 2020] [mpm_winnt:notice] [pid 11080:tid 696] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Jan 22 11:31:05.372322 2020] [mpm_winnt:notice] [pid 11080:tid 696] AH00431: Parent: Forcing termination of child process 9824
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+pm_winnt:notice] [pid 18540:tid 696] AH00455: Apache/2.4.41 (Win64) mod_jk/1.2.46 configured -- resuming normal operations
+[Wed Jan 22 13:14:56.642773 2020] [mpm_winnt:notice] [pid 18540:tid 696] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Wed Jan 22 13:14:56.642773 2020] [core:notice] [pid 18540:tid 696] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Wed Jan 22 13:14:56.645771 2020] [mpm_winnt:notice] [pid 18540:tid 696] AH00418: Parent: Created child process 21148
+[Wed Jan 22 13:14:58.537603 2020] [mpm_winnt:notice] [pid 21148:tid 648] AH00354: Child: Starting 64 worker threads.
+[Wed Jan 22 13:17:42.216480 2020] [mpm_winnt:notice] [pid 18540:tid 696] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Jan 22 13:17:44.218246 2020] [mpm_winnt:notice] [pid 21148:tid 648] AH00364: Child: All worker threads have exited.
+[Wed Jan 22 13:17:44.237232 2020] [mpm_winnt:notice] [pid 18540:tid 696] AH00430: Parent: Child process 21148 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+pm_winnt:notice] [pid 15588:tid 696] AH00455: Apache/2.4.41 (Win64) mod_jk/1.2.46 configured -- resuming normal operations
+[Wed Jan 22 13:17:50.254514 2020] [mpm_winnt:notice] [pid 15588:tid 696] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Wed Jan 22 13:17:50.254514 2020] [core:notice] [pid 15588:tid 696] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Wed Jan 22 13:17:50.257512 2020] [mpm_winnt:notice] [pid 15588:tid 696] AH00418: Parent: Created child process 20652
+[Wed Jan 22 13:17:52.137351 2020] [mpm_winnt:notice] [pid 20652:tid 648] AH00354: Child: Starting 64 worker threads.
+[Wed Jan 22 13:18:18.372142 2020] [mpm_winnt:notice] [pid 15588:tid 696] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Jan 22 13:18:48.372608 2020] [mpm_winnt:notice] [pid 15588:tid 696] AH00431: Parent: Forcing termination of child process 20652
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+pm_winnt:notice] [pid 20616:tid 696] AH00455: Apache/2.4.41 (Win64) mod_jk/1.2.46 configured -- resuming normal operations
+[Wed Jan 22 13:18:54.820624 2020] [mpm_winnt:notice] [pid 20616:tid 696] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Wed Jan 22 13:18:54.820624 2020] [core:notice] [pid 20616:tid 696] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Wed Jan 22 13:18:54.823623 2020] [mpm_winnt:notice] [pid 20616:tid 696] AH00418: Parent: Created child process 1892
+[Wed Jan 22 13:18:56.692468 2020] [mpm_winnt:notice] [pid 1892:tid 648] AH00354: Child: Starting 64 worker threads.
+[Wed Jan 22 13:19:47.902830 2020] [mpm_winnt:notice] [pid 20616:tid 696] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Jan 22 13:20:07.669621 2020] [mpm_winnt:notice] [pid 1892:tid 648] AH00364: Child: All worker threads have exited.
+[Wed Jan 22 13:20:07.688609 2020] [mpm_winnt:notice] [pid 20616:tid 696] AH00430: Parent: Child process 1892 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+pm_winnt:notice] [pid 7900:tid 704] AH00455: Apache/2.4.41 (Win64) mod_jk/1.2.46 configured -- resuming normal operations
+[Wed Jan 22 13:20:14.691280 2020] [mpm_winnt:notice] [pid 7900:tid 704] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Wed Jan 22 13:20:14.691280 2020] [core:notice] [pid 7900:tid 704] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Wed Jan 22 13:20:14.695277 2020] [mpm_winnt:notice] [pid 7900:tid 704] AH00418: Parent: Created child process 11160
+[Wed Jan 22 13:20:16.681052 2020] [mpm_winnt:notice] [pid 11160:tid 656] AH00354: Child: Starting 64 worker threads.
+[Thu Jan 23 08:42:50.869387 2020] [mpm_winnt:notice] [pid 7900:tid 704] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Jan 23 08:43:17.096713 2020] [mpm_winnt:notice] [pid 11160:tid 656] AH00364: Child: All worker threads have exited.
+[Thu Jan 23 08:43:17.111703 2020] [mpm_winnt:notice] [pid 7900:tid 704] AH00430: Parent: Child process 11160 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+pm_winnt:notice] [pid 8740:tid 736] AH00455: Apache/2.4.41 (Win64) mod_jk/1.2.46 configured -- resuming normal operations
+[Thu Jan 23 09:14:37.927287 2020] [mpm_winnt:notice] [pid 8740:tid 736] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Thu Jan 23 09:14:37.927287 2020] [core:notice] [pid 8740:tid 736] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Thu Jan 23 09:14:37.934282 2020] [mpm_winnt:notice] [pid 8740:tid 736] AH00418: Parent: Created child process 17844
+[Thu Jan 23 09:14:40.122928 2020] [mpm_winnt:notice] [pid 17844:tid 728] AH00354: Child: Starting 64 worker threads.
+[Thu Jan 23 14:24:21.511565 2020] [mpm_winnt:crit] [pid 17844:tid 728] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Thu Jan 23 14:24:21.512564 2020] [mpm_winnt:warn] [pid 17844:tid 660] (OS 995)스레드 종료 또는 응용 프로그램 요청 때문에 I/O 작업이 취소되었습니다.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Thu Jan 23 14:24:21.512564 2020] [mpm_winnt:warn] [pid 17844:tid 632] (OS 995)스레드 종료 또는 응용 프로그램 요청 때문에 I/O 작업이 취소되었습니다.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Thu Jan 23 14:24:21.513564 2020] [mpm_winnt:error] [pid 17844:tid 660] (OS 10038)소켓 이외의 개체에 작업을 시도했습니다.  : AH00337: Child: Encountered too many AcceptEx faults accepting client connections. Possible causes: dynamic address renewal, or incompatible VPN or firewall software. 
+[Thu Jan 23 14:24:21.513564 2020] [mpm_winnt:notice] [pid 17844:tid 660] (OS 10038)소켓 이외의 개체에 작업을 시도했습니다.  : AH00338: winnt_mpm: falling back to 'AcceptFilter none'.
+[Thu Jan 23 14:24:21.513564 2020] [mpm_winnt:error] [pid 17844:tid 632] (OS 10038)소켓 이외의 개체에 작업을 시도했습니다.  : AH00337: Child: Encountered too many AcceptEx faults accepting client connections. Possible causes: dynamic address renewal, or incompatible VPN or firewall software. 
+[Thu Jan 23 14:24:21.513564 2020] [mpm_winnt:notice] [pid 17844:tid 632] (OS 10038)소켓 이외의 개체에 작업을 시도했습니다.  : AH00338: winnt_mpm: falling back to 'AcceptFilter none'.
+[Thu Jan 23 14:24:23.514331 2020] [mpm_winnt:notice] [pid 17844:tid 728] AH00364: Child: All worker threads have exited.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+ore:warn] [pid 21368:tid 680] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Jan 23 17:22:58.364526 2020] [mpm_winnt:notice] [pid 21368:tid 680] AH00455: Apache/2.4.41 (Win64) mod_jk/1.2.46 configured -- resuming normal operations
+[Thu Jan 23 17:22:58.364526 2020] [mpm_winnt:notice] [pid 21368:tid 680] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Thu Jan 23 17:22:58.364526 2020] [core:notice] [pid 21368:tid 680] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Thu Jan 23 17:22:58.368524 2020] [mpm_winnt:notice] [pid 21368:tid 680] AH00418: Parent: Created child process 19496
+[Thu Jan 23 17:23:00.451985 2020] [mpm_winnt:notice] [pid 19496:tid 660] AH00354: Child: Starting 64 worker threads.
+[Thu Jan 23 17:30:53.714491 2020] [mpm_winnt:notice] [pid 21368:tid 680] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Jan 23 17:30:55.717087 2020] [mpm_winnt:notice] [pid 19496:tid 660] AH00364: Child: All worker threads have exited.
+[Thu Jan 23 17:30:55.736075 2020] [mpm_winnt:notice] [pid 21368:tid 680] AH00430: Parent: Child process 19496 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+pm_winnt:notice] [pid 24248:tid 720] AH00455: Apache/2.4.41 (Win64) mod_jk/1.2.46 configured -- resuming normal operations
+[Thu Jan 23 17:31:03.441634 2020] [mpm_winnt:notice] [pid 24248:tid 720] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Thu Jan 23 17:31:03.442633 2020] [core:notice] [pid 24248:tid 720] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Thu Jan 23 17:31:03.445631 2020] [mpm_winnt:notice] [pid 24248:tid 720] AH00418: Parent: Created child process 23864
+[Thu Jan 23 17:31:05.406984 2020] [mpm_winnt:notice] [pid 23864:tid 648] AH00354: Child: Starting 64 worker threads.
+[Thu Jan 23 17:40:30.470123 2020] [mpm_winnt:crit] [pid 23864:tid 648] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Thu Jan 23 17:40:30.470123 2020] [mpm_winnt:warn] [pid 23864:tid 1216] (OS 995)스레드 종료 또는 응용 프로그램 요청 때문에 I/O 작업이 취소되었습니다.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Thu Jan 23 17:40:30.470123 2020] [mpm_winnt:warn] [pid 23864:tid 644] (OS 995)스레드 종료 또는 응용 프로그램 요청 때문에 I/O 작업이 취소되었습니다.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Thu Jan 23 17:40:32.471586 2020] [mpm_winnt:notice] [pid 23864:tid 648] AH00364: Child: All worker threads have exited.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+ore:warn] [pid 7576:tid 520] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Jan 23 17:40:57.148768 2020] [mpm_winnt:notice] [pid 7576:tid 520] AH00455: Apache/2.4.41 (Win64) mod_jk/1.2.46 configured -- resuming normal operations
+[Thu Jan 23 17:40:57.148768 2020] [mpm_winnt:notice] [pid 7576:tid 520] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Thu Jan 23 17:40:57.148768 2020] [core:notice] [pid 7576:tid 520] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Thu Jan 23 17:40:57.151766 2020] [mpm_winnt:notice] [pid 7576:tid 520] AH00418: Parent: Created child process 23844
+[Thu Jan 23 17:40:59.622709 2020] [mpm_winnt:notice] [pid 23844:tid 660] AH00354: Child: Starting 64 worker threads.
+[Thu Jan 23 18:01:23.928848 2020] [mpm_winnt:notice] [pid 7576:tid 520] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Jan 23 18:01:25.930615 2020] [mpm_winnt:notice] [pid 23844:tid 660] AH00364: Child: All worker threads have exited.
+[Thu Jan 23 18:01:25.949600 2020] [mpm_winnt:notice] [pid 7576:tid 520] AH00430: Parent: Child process 23844 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+pm_winnt:notice] [pid 3196:tid 696] AH00455: Apache/2.4.41 (Win64) mod_jk/1.2.46 configured -- resuming normal operations
+[Tue Jan 28 08:59:57.033118 2020] [mpm_winnt:notice] [pid 3196:tid 696] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Tue Jan 28 08:59:57.033118 2020] [core:notice] [pid 3196:tid 696] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Jan 28 08:59:57.033118 2020] [mpm_winnt:notice] [pid 3196:tid 696] AH00418: Parent: Created child process 25140
+[Tue Jan 28 08:59:58.986179 2020] [mpm_winnt:notice] [pid 25140:tid 644] AH00354: Child: Starting 64 worker threads.
+[Tue Jan 28 09:07:37.965415 2020] [mpm_winnt:notice] [pid 3196:tid 696] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Jan 28 09:07:39.967182 2020] [mpm_winnt:notice] [pid 25140:tid 644] AH00364: Child: All worker threads have exited.
+[Tue Jan 28 09:07:39.986170 2020] [mpm_winnt:notice] [pid 3196:tid 696] AH00430: Parent: Child process 25140 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+pm_winnt:notice] [pid 6404:tid 696] AH00455: Apache/2.4.41 (Win64) mod_jk/1.2.46 configured -- resuming normal operations
+[Tue Jan 28 09:25:23.398641 2020] [mpm_winnt:notice] [pid 6404:tid 696] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Tue Jan 28 09:25:23.398641 2020] [core:notice] [pid 6404:tid 696] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Jan 28 09:25:23.398641 2020] [mpm_winnt:notice] [pid 6404:tid 696] AH00418: Parent: Created child process 6808
+[Tue Jan 28 09:25:25.322387 2020] [mpm_winnt:notice] [pid 6808:tid 648] AH00354: Child: Starting 64 worker threads.
+[Tue Jan 28 09:32:46.295898 2020] [mpm_winnt:notice] [pid 6404:tid 696] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Jan 28 09:32:48.342712 2020] [mpm_winnt:notice] [pid 6808:tid 648] AH00364: Child: All worker threads have exited.
+[Tue Jan 28 09:32:48.358336 2020] [mpm_winnt:notice] [pid 6404:tid 696] AH00430: Parent: Child process 6808 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+pm_winnt:notice] [pid 21064:tid 696] AH00455: Apache/2.4.41 (Win64) mod_jk/1.2.46 configured -- resuming normal operations
+[Tue Jan 28 09:32:55.936213 2020] [mpm_winnt:notice] [pid 21064:tid 696] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Tue Jan 28 09:32:55.936213 2020] [core:notice] [pid 21064:tid 696] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Jan 28 09:32:55.936213 2020] [mpm_winnt:notice] [pid 21064:tid 696] AH00418: Parent: Created child process 640
+[Tue Jan 28 09:32:57.748652 2020] [mpm_winnt:notice] [pid 640:tid 648] AH00354: Child: Starting 64 worker threads.
+[Tue Jan 28 09:33:42.507840 2020] [mpm_winnt:notice] [pid 21064:tid 696] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Jan 28 09:34:01.987944 2020] [mpm_winnt:notice] [pid 640:tid 648] AH00364: Child: All worker threads have exited.
+[Tue Jan 28 09:34:02.005933 2020] [mpm_winnt:notice] [pid 21064:tid 696] AH00430: Parent: Child process 640 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+pm_winnt:notice] [pid 17544:tid 676] AH00455: Apache/2.4.41 (Win64) mod_jk/1.2.46 configured -- resuming normal operations
+[Tue Jan 28 09:36:38.265027 2020] [mpm_winnt:notice] [pid 17544:tid 676] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Tue Jan 28 09:36:38.265027 2020] [core:notice] [pid 17544:tid 676] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Jan 28 09:36:38.268025 2020] [mpm_winnt:notice] [pid 17544:tid 676] AH00418: Parent: Created child process 24788
+[Tue Jan 28 09:36:40.299497 2020] [mpm_winnt:notice] [pid 24788:tid 648] AH00354: Child: Starting 64 worker threads.
+[Tue Jan 28 16:03:12.276805 2020] [mpm_winnt:notice] [pid 17544:tid 676] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Jan 28 16:03:14.278568 2020] [mpm_winnt:notice] [pid 24788:tid 648] AH00364: Child: All worker threads have exited.
+[Tue Jan 28 16:03:14.294558 2020] [mpm_winnt:notice] [pid 17544:tid 676] AH00430: Parent: Child process 24788 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+pm_winnt:notice] [pid 10760:tid 692] AH00455: Apache/2.4.41 (Win64) mod_jk/1.2.46 configured -- resuming normal operations
+[Tue Jan 28 16:03:21.793570 2020] [mpm_winnt:notice] [pid 10760:tid 692] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Tue Jan 28 16:03:21.793570 2020] [core:notice] [pid 10760:tid 692] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Jan 28 16:03:21.796568 2020] [mpm_winnt:notice] [pid 10760:tid 692] AH00418: Parent: Created child process 12984
+[Tue Jan 28 16:03:23.680403 2020] [mpm_winnt:notice] [pid 12984:tid 648] AH00354: Child: Starting 64 worker threads.
+[Tue Jan 28 16:18:31.868514 2020] [mpm_winnt:crit] [pid 12984:tid 648] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Tue Jan 28 16:18:31.868514 2020] [mpm_winnt:warn] [pid 12984:tid 1244] (OS 995)스레드 종료 또는 응용 프로그램 요청 때문에 I/O 작업이 취소되었습니다.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Tue Jan 28 16:18:31.869513 2020] [mpm_winnt:warn] [pid 12984:tid 644] (OS 995)스레드 종료 또는 응용 프로그램 요청 때문에 I/O 작업이 취소되었습니다.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Tue Jan 28 16:18:33.871282 2020] [mpm_winnt:notice] [pid 12984:tid 648] AH00364: Child: All worker threads have exited.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+ore:warn] [pid 15744:tid 616] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jan 28 16:19:44.734795 2020] [mpm_winnt:notice] [pid 15744:tid 616] AH00455: Apache/2.4.41 (Win64) mod_jk/1.2.46 configured -- resuming normal operations
+[Tue Jan 28 16:19:44.735794 2020] [mpm_winnt:notice] [pid 15744:tid 616] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Tue Jan 28 16:19:44.735794 2020] [core:notice] [pid 15744:tid 616] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Jan 28 16:19:44.738793 2020] [mpm_winnt:notice] [pid 15744:tid 616] AH00418: Parent: Created child process 11076
+[Tue Jan 28 16:19:46.759544 2020] [mpm_winnt:notice] [pid 11076:tid 4] AH00354: Child: Starting 64 worker threads.
+[Tue Jan 28 16:24:08.722046 2020] [mpm_winnt:notice] [pid 15744:tid 616] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Jan 28 16:24:10.723811 2020] [mpm_winnt:notice] [pid 11076:tid 4] AH00364: Child: All worker threads have exited.
+[Tue Jan 28 16:24:10.742800 2020] [mpm_winnt:notice] [pid 15744:tid 616] AH00430: Parent: Child process 11076 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+pm_winnt:notice] [pid 240:tid 716] AH00455: Apache/2.4.41 (Win64) mod_jk/1.2.46 configured -- resuming normal operations
+[Tue Jan 28 16:24:19.419436 2020] [mpm_winnt:notice] [pid 240:tid 716] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Tue Jan 28 16:24:19.419436 2020] [core:notice] [pid 240:tid 716] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Jan 28 16:24:19.422434 2020] [mpm_winnt:notice] [pid 240:tid 716] AH00418: Parent: Created child process 12168
+[Tue Jan 28 16:24:21.302273 2020] [mpm_winnt:notice] [pid 12168:tid 656] AH00354: Child: Starting 64 worker threads.
+[Tue Jan 28 16:28:36.571233 2020] [mpm_winnt:notice] [pid 240:tid 716] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Jan 28 16:28:43.026371 2020] [mpm_winnt:notice] [pid 12168:tid 656] AH00364: Child: All worker threads have exited.
+[Tue Jan 28 16:28:43.045359 2020] [mpm_winnt:notice] [pid 240:tid 716] AH00430: Parent: Child process 12168 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+pm_winnt:notice] [pid 23744:tid 696] AH00455: Apache/2.4.41 (Win64) mod_jk/1.2.46 configured -- resuming normal operations
+[Tue Jan 28 16:28:49.398432 2020] [mpm_winnt:notice] [pid 23744:tid 696] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Tue Jan 28 16:28:49.398432 2020] [core:notice] [pid 23744:tid 696] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Jan 28 16:28:49.401430 2020] [mpm_winnt:notice] [pid 23744:tid 696] AH00418: Parent: Created child process 21056
+[Tue Jan 28 16:28:51.290262 2020] [mpm_winnt:notice] [pid 21056:tid 632] AH00354: Child: Starting 64 worker threads.
+[Tue Jan 28 16:39:59.929733 2020] [mpm_winnt:notice] [pid 23744:tid 696] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Jan 28 16:40:01.931499 2020] [mpm_winnt:notice] [pid 21056:tid 632] AH00364: Child: All worker threads have exited.
+[Tue Jan 28 16:40:01.950487 2020] [mpm_winnt:notice] [pid 23744:tid 696] AH00430: Parent: Child process 21056 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+pm_winnt:notice] [pid 13020:tid 696] AH00455: Apache/2.4.41 (Win64) mod_jk/1.2.46 configured -- resuming normal operations
+[Tue Jan 28 16:47:58.950736 2020] [mpm_winnt:notice] [pid 13020:tid 696] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Tue Jan 28 16:47:58.950736 2020] [core:notice] [pid 13020:tid 696] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Jan 28 16:47:58.954733 2020] [mpm_winnt:notice] [pid 13020:tid 696] AH00418: Parent: Created child process 16644
+[Tue Jan 28 16:48:00.827576 2020] [mpm_winnt:notice] [pid 16644:tid 664] AH00354: Child: Starting 64 worker threads.
+[Tue Jan 28 17:43:22.926068 2020] [mpm_winnt:notice] [pid 13020:tid 696] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Jan 28 17:43:24.927832 2020] [mpm_winnt:notice] [pid 16644:tid 664] AH00364: Child: All worker threads have exited.
+[Tue Jan 28 17:43:24.947822 2020] [mpm_winnt:notice] [pid 13020:tid 696] AH00430: Parent: Child process 16644 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+pm_winnt:notice] [pid 23816:tid 612] AH00455: Apache/2.4.41 (Win64) mod_jk/1.2.46 configured -- resuming normal operations
+[Tue Jan 28 17:43:54.366644 2020] [mpm_winnt:notice] [pid 23816:tid 612] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Tue Jan 28 17:43:54.366644 2020] [core:notice] [pid 23816:tid 612] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Jan 28 17:43:54.369642 2020] [mpm_winnt:notice] [pid 23816:tid 612] AH00418: Parent: Created child process 25588
+[Tue Jan 28 17:43:56.285460 2020] [mpm_winnt:notice] [pid 25588:tid 648] AH00354: Child: Starting 64 worker threads.
+[Tue Jan 28 18:13:41.011245 2020] [mpm_winnt:notice] [pid 23816:tid 612] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Jan 28 18:13:43.013011 2020] [mpm_winnt:notice] [pid 25588:tid 648] AH00364: Child: All worker threads have exited.
+[Tue Jan 28 18:13:43.032999 2020] [mpm_winnt:notice] [pid 23816:tid 612] AH00430: Parent: Child process 25588 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+pm_winnt:notice] [pid 9612:tid 696] AH00455: Apache/2.4.41 (Win64) mod_jk/1.2.46 configured -- resuming normal operations
+[Tue Jan 28 18:13:53.830327 2020] [mpm_winnt:notice] [pid 9612:tid 696] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Tue Jan 28 18:13:53.830327 2020] [core:notice] [pid 9612:tid 696] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Jan 28 18:13:53.833325 2020] [mpm_winnt:notice] [pid 9612:tid 696] AH00418: Parent: Created child process 18740
+[Tue Jan 28 18:13:55.765133 2020] [mpm_winnt:notice] [pid 18740:tid 672] AH00354: Child: Starting 64 worker threads.
+[Tue Jan 28 18:35:02.298801 2020] [mpm_winnt:notice] [pid 9612:tid 696] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Jan 28 18:35:04.300567 2020] [mpm_winnt:notice] [pid 18740:tid 672] AH00364: Child: All worker threads have exited.
+[Tue Jan 28 18:35:04.319556 2020] [mpm_winnt:notice] [pid 9612:tid 696] AH00430: Parent: Child process 18740 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+pm_winnt:notice] [pid 20324:tid 696] AH00455: Apache/2.4.41 (Win64) mod_jk/1.2.46 configured -- resuming normal operations
+[Wed Jan 29 08:52:25.479182 2020] [mpm_winnt:notice] [pid 20324:tid 696] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Wed Jan 29 08:52:25.479182 2020] [core:notice] [pid 20324:tid 696] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Wed Jan 29 08:52:25.479182 2020] [mpm_winnt:notice] [pid 20324:tid 696] AH00418: Parent: Created child process 21584
+[Wed Jan 29 08:52:27.369745 2020] [mpm_winnt:notice] [pid 21584:tid 656] AH00354: Child: Starting 64 worker threads.
+[Wed Jan 29 15:14:16.893423 2020] [core:warn] [pid 19328:tid 648] AH00098: pid file D:/taegi/Gluu_POC/gluu-poc/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Jan 29 15:14:16.897421 2020] [mpm_winnt:notice] [pid 19328:tid 648] AH00455: Apache/2.4.41 (Win64) mod_jk/1.2.46 configured -- resuming normal operations
+[Wed Jan 29 15:14:16.897421 2020] [mpm_winnt:notice] [pid 19328:tid 648] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Wed Jan 29 15:14:16.897421 2020] [core:notice] [pid 19328:tid 648] AH00094: Command line: 'D:\\taegi\\Gluu_POC\\gluu-poc\\Apache24\\bin\\httpd.exe -d D:/taegi/Gluu_POC/gluu-poc/Apache24'
+[Wed Jan 29 15:14:16.908414 2020] [mpm_winnt:notice] [pid 19328:tid 648] AH00418: Parent: Created child process 17460
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 17460:tid 500] AH00354: Child: Starting 64 worker threads.
+[Wed Jan 29 15:14:27.525853 2020] [mpm_winnt:notice] [pid 19328:tid 648] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Jan 29 15:14:29.526620 2020] [mpm_winnt:notice] [pid 17460:tid 500] AH00364: Child: All worker threads have exited.
+[Wed Jan 29 15:14:29.547604 2020] [mpm_winnt:notice] [pid 19328:tid 648] AH00430: Parent: Child process 17460 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+pm_winnt:notice] [pid 2104:tid 716] AH00455: Apache/2.4.41 (Win64) mod_jk/1.2.46 configured -- resuming normal operations
+[Wed Jan 29 15:47:14.539154 2020] [mpm_winnt:notice] [pid 2104:tid 716] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Wed Jan 29 15:47:14.539154 2020] [core:notice] [pid 2104:tid 716] AH00094: Command line: 'D:\\taegi\\Gluu_POC\\gluu-poc\\Apache24\\bin\\httpd.exe -d D:/taegi/Gluu_POC/gluu-poc/Apache24'
+[Wed Jan 29 15:47:14.539154 2020] [mpm_winnt:notice] [pid 2104:tid 716] AH00418: Parent: Created child process 7448
+[Wed Jan 29 15:47:16.515862 2020] [mpm_winnt:notice] [pid 7448:tid 648] AH00354: Child: Starting 64 worker threads.
+[Wed Jan 29 15:59:42.402231 2020] [mpm_winnt:notice] [pid 2104:tid 716] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Jan 29 15:59:44.403995 2020] [mpm_winnt:notice] [pid 7448:tid 648] AH00364: Child: All worker threads have exited.
+[Wed Jan 29 15:59:44.422981 2020] [mpm_winnt:notice] [pid 2104:tid 716] AH00430: Parent: Child process 7448 exited successfully.

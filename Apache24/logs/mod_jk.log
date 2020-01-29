@@ -1,0 +1,495 @@
+[Tue Jan 21 09:07:10.550 2020] [15644:17108] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 09:07:10.550 2020] [15644:17108] [error] extension_fix::jk_uri_worker_map.c (580): Could not find worker with name 'worker1' in uri map post processing.
+[Tue Jan 21 09:07:10.578 2020] [15644:17108] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 09:07:10.578 2020] [15644:17108] [error] extension_fix::jk_uri_worker_map.c (580): Could not find worker with name 'worker1' in uri map post processing.
+[Tue Jan 21 09:07:12.581 2020] [10928:12188] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 09:07:12.581 2020] [10928:12188] [error] extension_fix::jk_uri_worker_map.c (580): Could not find worker with name 'worker1' in uri map post processing.
+[Tue Jan 21 09:07:12.609 2020] [10928:12188] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 09:07:12.609 2020] [10928:12188] [error] extension_fix::jk_uri_worker_map.c (580): Could not find worker with name 'worker1' in uri map post processing.
+[Tue Jan 21 09:07:30.516 2020] [10928:5716] [info] jk_handler::mod_jk.c (2999): Could not find a worker for worker name=worker1
+[Tue Jan 21 09:13:17.217 2020] [15644:17108] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 09:13:17.217 2020] [15644:17108] [error] extension_fix::jk_uri_worker_map.c (580): Could not find worker with name 'worker1' in uri map post processing.
+[Tue Jan 21 09:13:19.041 2020] [14840:18528] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 09:13:19.041 2020] [14840:18528] [error] extension_fix::jk_uri_worker_map.c (580): Could not find worker with name 'worker1' in uri map post processing.
+[Tue Jan 21 09:13:19.067 2020] [14840:18528] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 09:13:19.067 2020] [14840:18528] [error] extension_fix::jk_uri_worker_map.c (580): Could not find worker with name 'worker1' in uri map post processing.
+[Tue Jan 21 09:13:34.840 2020] [14840:18636] [info] jk_handler::mod_jk.c (2999): Could not find a worker for worker name=worker1
+[Tue Jan 21 09:13:53.879 2020] [15644:17108] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 09:13:53.879 2020] [15644:17108] [error] extension_fix::jk_uri_worker_map.c (580): Could not find worker with name 'worker1' in uri map post processing.
+[Tue Jan 21 09:13:55.742 2020] [17504:4304] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 09:13:55.742 2020] [17504:4304] [error] extension_fix::jk_uri_worker_map.c (580): Could not find worker with name 'worker1' in uri map post processing.
+[Tue Jan 21 09:13:55.770 2020] [17504:4304] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 09:13:55.770 2020] [17504:4304] [error] extension_fix::jk_uri_worker_map.c (580): Could not find worker with name 'worker1' in uri map post processing.
+[Tue Jan 21 09:13:56.696 2020] [15644:17108] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 09:13:56.696 2020] [15644:17108] [error] extension_fix::jk_uri_worker_map.c (580): Could not find worker with name 'worker1' in uri map post processing.
+[Tue Jan 21 09:13:58.582 2020] [18456:13572] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 09:13:58.582 2020] [18456:13572] [error] extension_fix::jk_uri_worker_map.c (580): Could not find worker with name 'worker1' in uri map post processing.
+[Tue Jan 21 09:13:58.608 2020] [18456:13572] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 09:13:58.608 2020] [18456:13572] [error] extension_fix::jk_uri_worker_map.c (580): Could not find worker with name 'worker1' in uri map post processing.
+[Tue Jan 21 09:14:19.045 2020] [16572:17840] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 09:14:19.045 2020] [16572:17840] [error] extension_fix::jk_uri_worker_map.c (580): Could not find worker with name 'worker1' in uri map post processing.
+[Tue Jan 21 09:14:19.072 2020] [16572:17840] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 09:14:19.072 2020] [16572:17840] [error] extension_fix::jk_uri_worker_map.c (580): Could not find worker with name 'worker1' in uri map post processing.
+[Tue Jan 21 09:14:20.927 2020] [16920:16200] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 09:14:20.927 2020] [16920:16200] [error] extension_fix::jk_uri_worker_map.c (580): Could not find worker with name 'worker1' in uri map post processing.
+[Tue Jan 21 09:14:20.955 2020] [16920:16200] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 09:14:20.955 2020] [16920:16200] [error] extension_fix::jk_uri_worker_map.c (580): Could not find worker with name 'worker1' in uri map post processing.
+[Tue Jan 21 09:14:43.285 2020] [16920:17704] [info] jk_handler::mod_jk.c (2999): Could not find a worker for worker name=worker1
+[Tue Jan 21 09:17:02.238 2020] [16920:1260] [info] jk_handler::mod_jk.c (2999): Could not find a worker for worker name=worker1
+[Tue Jan 21 09:17:49.691 2020] [5368:10200] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 09:17:49.720 2020] [5368:10200] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 09:17:51.613 2020] [13336:15936] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 09:17:51.640 2020] [13336:15936] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 09:23:02.131 2020] [19076:3412] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 09:23:02.131 2020] [19076:3412] [error] extension_fix::jk_uri_worker_map.c (580): Could not find worker with name 'worker1' in uri map post processing.
+[Tue Jan 21 09:23:02.157 2020] [19076:3412] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 09:23:02.157 2020] [19076:3412] [error] extension_fix::jk_uri_worker_map.c (580): Could not find worker with name 'worker1' in uri map post processing.
+[Tue Jan 21 09:23:04.126 2020] [18640:6048] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 09:23:04.126 2020] [18640:6048] [error] extension_fix::jk_uri_worker_map.c (580): Could not find worker with name 'worker1' in uri map post processing.
+[Tue Jan 21 09:23:04.152 2020] [18640:6048] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 09:23:04.152 2020] [18640:6048] [error] extension_fix::jk_uri_worker_map.c (580): Could not find worker with name 'worker1' in uri map post processing.
+[Tue Jan 21 09:23:14.268 2020] [18640:17372] [info] jk_handler::mod_jk.c (2999): Could not find a worker for worker name=worker1
+[Tue Jan 21 09:29:58.783 2020] [18296:20052] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 09:29:58.783 2020] [18296:20052] [error] extension_fix::jk_uri_worker_map.c (580): Could not find worker with name 'worker1' in uri map post processing.
+[Tue Jan 21 09:29:58.811 2020] [18296:20052] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 09:29:58.811 2020] [18296:20052] [error] extension_fix::jk_uri_worker_map.c (580): Could not find worker with name 'worker1' in uri map post processing.
+[Tue Jan 21 09:30:00.680 2020] [12984:18772] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 09:30:00.680 2020] [12984:18772] [error] extension_fix::jk_uri_worker_map.c (580): Could not find worker with name 'worker1' in uri map post processing.
+[Tue Jan 21 09:30:00.706 2020] [12984:18772] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 09:30:00.706 2020] [12984:18772] [error] extension_fix::jk_uri_worker_map.c (580): Could not find worker with name 'worker1' in uri map post processing.
+[Tue Jan 21 09:30:04.770 2020] [12984:2912] [info] jk_handler::mod_jk.c (2999): Could not find a worker for worker name=worker1
+[Tue Jan 21 09:30:04.834 2020] [12984:13500] [info] jk_handler::mod_jk.c (2999): Could not find a worker for worker name=worker1
+[Tue Jan 21 09:30:33.441 2020] [12984:13500] [info] jk_handler::mod_jk.c (2999): Could not find a worker for worker name=worker1
+[Tue Jan 21 09:30:33.497 2020] [12984:2912] [info] jk_handler::mod_jk.c (2999): Could not find a worker for worker name=worker1
+[Tue Jan 21 09:36:07.554 2020] [19476:20140] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 09:36:07.554 2020] [19476:20140] [error] extension_fix::jk_uri_worker_map.c (580): Could not find worker with name 'worker1' in uri map post processing.
+[Tue Jan 21 09:36:07.580 2020] [19476:20140] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 09:36:07.580 2020] [19476:20140] [error] extension_fix::jk_uri_worker_map.c (580): Could not find worker with name 'worker1' in uri map post processing.
+[Tue Jan 21 09:36:09.478 2020] [19060:17352] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 09:36:09.478 2020] [19060:17352] [error] extension_fix::jk_uri_worker_map.c (580): Could not find worker with name 'worker1' in uri map post processing.
+[Tue Jan 21 09:36:09.506 2020] [19060:17352] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 09:36:09.506 2020] [19060:17352] [error] extension_fix::jk_uri_worker_map.c (580): Could not find worker with name 'worker1' in uri map post processing.
+[Tue Jan 21 09:36:13.306 2020] [19060:17940] [info] jk_handler::mod_jk.c (2999): Could not find a worker for worker name=worker1
+[Tue Jan 21 09:38:29.622 2020] [19652:20072] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 09:38:29.622 2020] [19652:20072] [error] extension_fix::jk_uri_worker_map.c (580): Could not find worker with name 'worker1' in uri map post processing.
+[Tue Jan 21 09:38:29.648 2020] [19652:20072] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 09:38:29.649 2020] [19652:20072] [error] extension_fix::jk_uri_worker_map.c (580): Could not find worker with name 'worker1' in uri map post processing.
+[Tue Jan 21 09:38:31.608 2020] [4304:12588] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 09:38:31.608 2020] [4304:12588] [error] extension_fix::jk_uri_worker_map.c (580): Could not find worker with name 'worker1' in uri map post processing.
+[Tue Jan 21 09:38:31.634 2020] [4304:12588] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 09:38:31.634 2020] [4304:12588] [error] extension_fix::jk_uri_worker_map.c (580): Could not find worker with name 'worker1' in uri map post processing.
+[Tue Jan 21 09:38:42.621 2020] [4304:19828] [info] jk_handler::mod_jk.c (2999): Could not find a worker for worker name=worker1
+[Tue Jan 21 09:49:32.477 2020] [19068:9448] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 09:49:32.477 2020] [19068:9448] [error] extension_fix::jk_uri_worker_map.c (580): Could not find worker with name 'worker1' in uri map post processing.
+[Tue Jan 21 09:49:32.505 2020] [19068:9448] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 09:49:32.505 2020] [19068:9448] [error] extension_fix::jk_uri_worker_map.c (580): Could not find worker with name 'worker1' in uri map post processing.
+[Tue Jan 21 09:49:34.440 2020] [19432:18928] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 09:49:34.440 2020] [19432:18928] [error] extension_fix::jk_uri_worker_map.c (580): Could not find worker with name 'worker1' in uri map post processing.
+[Tue Jan 21 09:49:34.467 2020] [19432:18928] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 09:49:34.467 2020] [19432:18928] [error] extension_fix::jk_uri_worker_map.c (580): Could not find worker with name 'worker1' in uri map post processing.
+[Tue Jan 21 09:49:58.433 2020] [19432:15308] [info] jk_handler::mod_jk.c (2999): Could not find a worker for worker name=worker1
+[Tue Jan 21 09:51:13.550 2020] [19432:15308] [info] jk_handler::mod_jk.c (2999): Could not find a worker for worker name=worker1
+[Tue Jan 21 09:51:18.454 2020] [19432:18528] [info] jk_handler::mod_jk.c (2999): Could not find a worker for worker name=worker1
+[Tue Jan 21 09:51:20.583 2020] [19432:15308] [info] jk_handler::mod_jk.c (2999): Could not find a worker for worker name=worker1
+[Tue Jan 21 09:51:40.827 2020] [19432:18528] [info] jk_handler::mod_jk.c (2999): Could not find a worker for worker name=worker1
+[Tue Jan 21 09:52:52.902 2020] [18632:17956] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 09:52:52.930 2020] [18632:17956] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 09:52:54.837 2020] [18744:14936] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 09:52:54.862 2020] [18744:14936] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 09:55:28.892 2020] [19348:19912] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 09:55:28.920 2020] [19348:19912] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 09:55:30.820 2020] [20296:19080] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 09:55:30.845 2020] [20296:19080] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 09:57:44.264 2020] [9584:19832] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 09:57:44.265 2020] [9584:19832] [error] extension_fix::jk_uri_worker_map.c (580): Could not find worker with name 'worker1' in uri map post processing.
+[Tue Jan 21 09:57:44.291 2020] [9584:19832] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 09:57:44.291 2020] [9584:19832] [error] extension_fix::jk_uri_worker_map.c (580): Could not find worker with name 'worker1' in uri map post processing.
+[Tue Jan 21 09:57:46.160 2020] [9832:19384] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 09:57:46.160 2020] [9832:19384] [error] extension_fix::jk_uri_worker_map.c (580): Could not find worker with name 'worker1' in uri map post processing.
+[Tue Jan 21 09:57:46.186 2020] [9832:19384] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 09:57:46.186 2020] [9832:19384] [error] extension_fix::jk_uri_worker_map.c (580): Could not find worker with name 'worker1' in uri map post processing.
+[Tue Jan 21 09:58:25.505 2020] [11432:18928] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 09:58:25.505 2020] [11432:18928] [error] extension_fix::jk_uri_worker_map.c (580): Could not find worker with name 'worker1' in uri map post processing.
+[Tue Jan 21 09:58:25.533 2020] [11432:18928] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 09:58:25.533 2020] [11432:18928] [error] extension_fix::jk_uri_worker_map.c (580): Could not find worker with name 'worker1' in uri map post processing.
+[Tue Jan 21 09:58:27.443 2020] [6700:18936] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 09:58:27.444 2020] [6700:18936] [error] extension_fix::jk_uri_worker_map.c (580): Could not find worker with name 'worker1' in uri map post processing.
+[Tue Jan 21 09:58:27.469 2020] [6700:18936] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 09:58:27.469 2020] [6700:18936] [error] extension_fix::jk_uri_worker_map.c (580): Could not find worker with name 'worker1' in uri map post processing.
+[Tue Jan 21 09:58:31.596 2020] [6700:19908] [info] jk_handler::mod_jk.c (2999): Could not find a worker for worker name=worker1
+[Tue Jan 21 10:00:34.956 2020] [18496:18784] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 10:00:34.984 2020] [18496:18784] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 10:00:36.870 2020] [19444:19592] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 10:00:36.922 2020] [19444:19592] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 10:16:54.073 2020] [224:17084] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Tue Jan 21 10:16:54.078 2020] [224:17084] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 10:16:54.106 2020] [224:17084] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Tue Jan 21 10:16:54.107 2020] [224:17084] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 10:16:55.992 2020] [17956:15936] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Tue Jan 21 10:16:55.998 2020] [17956:15936] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 10:16:56.023 2020] [17956:15936] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Tue Jan 21 10:16:56.023 2020] [17956:15936] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 10:19:59.359 2020] [19508:18992] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Tue Jan 21 10:19:59.365 2020] [19508:18992] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 10:19:59.393 2020] [19508:18992] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Tue Jan 21 10:19:59.393 2020] [19508:18992] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 10:20:01.358 2020] [9832:11280] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Tue Jan 21 10:20:01.363 2020] [9832:11280] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 10:20:01.390 2020] [9832:11280] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Tue Jan 21 10:20:01.391 2020] [9832:11280] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 10:22:37.474 2020] [16128:18932] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Tue Jan 21 10:22:37.480 2020] [16128:18932] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 10:22:37.507 2020] [16128:18932] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Tue Jan 21 10:22:37.508 2020] [16128:18932] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 10:22:39.354 2020] [18412:19348] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Tue Jan 21 10:22:39.360 2020] [18412:19348] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 10:22:39.385 2020] [18412:19348] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Tue Jan 21 10:22:39.386 2020] [18412:19348] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 10:55:44.896 2020] [20600:21288] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Tue Jan 21 10:55:44.901 2020] [20600:21288] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 10:55:44.928 2020] [20600:21288] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Tue Jan 21 10:55:44.929 2020] [20600:21288] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 10:55:46.783 2020] [18020:12724] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Tue Jan 21 10:55:46.789 2020] [18020:12724] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 10:55:46.813 2020] [18020:12724] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Tue Jan 21 10:55:46.814 2020] [18020:12724] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 10:55:57.795 2020] [17928:18072] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Tue Jan 21 10:55:57.800 2020] [17928:18072] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 10:55:57.827 2020] [17928:18072] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Tue Jan 21 10:55:57.828 2020] [17928:18072] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 10:55:59.653 2020] [19384:18876] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Tue Jan 21 10:55:59.659 2020] [19384:18876] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 10:55:59.683 2020] [19384:18876] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Tue Jan 21 10:55:59.684 2020] [19384:18876] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 10:57:28.391 2020] [20240:19484] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Tue Jan 21 10:57:28.396 2020] [20240:19484] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 10:57:28.429 2020] [20240:19484] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Tue Jan 21 10:57:28.438 2020] [20240:19484] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 10:57:30.452 2020] [6048:18524] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Tue Jan 21 10:57:30.458 2020] [6048:18524] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 10:57:30.483 2020] [6048:18524] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Tue Jan 21 10:57:30.484 2020] [6048:18524] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 10:59:40.260 2020] [20524:20504] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Tue Jan 21 10:59:40.265 2020] [20524:20504] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 10:59:40.290 2020] [20524:20504] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Tue Jan 21 10:59:40.291 2020] [20524:20504] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 10:59:42.137 2020] [19368:21328] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Tue Jan 21 10:59:42.143 2020] [19368:21328] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 10:59:42.167 2020] [19368:21328] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Tue Jan 21 10:59:42.168 2020] [19368:21328] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 11:03:25.282 2020] [21176:19196] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Tue Jan 21 11:03:25.288 2020] [21176:19196] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 11:03:25.314 2020] [21176:19196] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Tue Jan 21 11:03:25.315 2020] [21176:19196] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 11:03:27.294 2020] [19592:14748] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Tue Jan 21 11:03:27.300 2020] [19592:14748] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 11:03:27.324 2020] [19592:14748] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Tue Jan 21 11:03:27.325 2020] [19592:14748] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 11:04:32.276 2020] [16760:20560] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Tue Jan 21 11:04:32.281 2020] [16760:20560] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 11:04:32.306 2020] [16760:20560] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Tue Jan 21 11:04:32.307 2020] [16760:20560] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 11:04:34.145 2020] [19960:19840] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Tue Jan 21 11:04:34.150 2020] [19960:19840] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 11:04:34.174 2020] [19960:19840] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Tue Jan 21 11:04:34.175 2020] [19960:19840] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 13:06:46.659 2020] [23308:22324] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Tue Jan 21 13:06:46.664 2020] [23308:22324] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 13:06:46.690 2020] [23308:22324] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Tue Jan 21 13:06:46.691 2020] [23308:22324] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 13:06:48.550 2020] [3936:22356] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Tue Jan 21 13:06:48.555 2020] [3936:22356] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 13:06:48.579 2020] [3936:22356] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Tue Jan 21 13:06:48.580 2020] [3936:22356] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 13:08:11.555 2020] [22644:23064] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Tue Jan 21 13:08:11.560 2020] [22644:23064] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 13:08:11.586 2020] [22644:23064] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Tue Jan 21 13:08:11.587 2020] [22644:23064] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 13:08:13.434 2020] [11248:1852] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Tue Jan 21 13:08:13.440 2020] [11248:1852] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 13:08:13.464 2020] [11248:1852] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Tue Jan 21 13:08:13.465 2020] [11248:1852] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 15:22:53.296 2020] [28128:25676] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Tue Jan 21 15:22:53.301 2020] [28128:25676] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 15:22:53.328 2020] [28128:25676] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Tue Jan 21 15:22:53.329 2020] [28128:25676] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 15:22:55.194 2020] [27864:28056] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Tue Jan 21 15:22:55.199 2020] [27864:28056] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 15:22:55.223 2020] [27864:28056] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Tue Jan 21 15:22:55.224 2020] [27864:28056] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 16:59:06.404 2020] [4292:4296] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Tue Jan 21 16:59:06.408 2020] [4292:4296] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 16:59:06.427 2020] [4292:4296] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Tue Jan 21 16:59:06.428 2020] [4292:4296] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 16:59:07.513 2020] [6844:6848] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Tue Jan 21 16:59:07.549 2020] [6844:6848] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 16:59:07.568 2020] [6844:6848] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Tue Jan 21 16:59:07.569 2020] [6844:6848] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 17:58:28.268 2020] [17296:16172] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Tue Jan 21 17:58:28.275 2020] [17296:16172] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 17:58:28.301 2020] [17296:16172] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Tue Jan 21 17:58:28.302 2020] [17296:16172] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 17:58:30.234 2020] [9448:5428] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Tue Jan 21 17:58:30.239 2020] [9448:5428] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 21 17:58:30.265 2020] [9448:5428] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Tue Jan 21 17:58:30.266 2020] [9448:5428] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Wed Jan 22 08:51:34.519 2020] [8528:19984] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Wed Jan 22 08:51:34.525 2020] [8528:19984] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Wed Jan 22 08:51:34.551 2020] [8528:19984] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Wed Jan 22 08:51:34.552 2020] [8528:19984] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Wed Jan 22 08:51:36.581 2020] [17824:9988] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Wed Jan 22 08:51:36.587 2020] [17824:9988] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Wed Jan 22 08:51:36.615 2020] [17824:9988] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Wed Jan 22 08:51:36.616 2020] [17824:9988] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Wed Jan 22 09:30:54.952 2020] [19728:10456] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Wed Jan 22 09:30:54.958 2020] [19728:10456] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Wed Jan 22 09:30:54.984 2020] [19728:10456] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Wed Jan 22 09:30:54.984 2020] [19728:10456] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Wed Jan 22 09:30:56.886 2020] [16912:19376] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Wed Jan 22 09:30:56.898 2020] [16912:19376] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Wed Jan 22 09:30:56.939 2020] [16912:19376] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Wed Jan 22 09:30:56.940 2020] [16912:19376] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Wed Jan 22 11:29:37.449 2020] [11080:19184] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Wed Jan 22 11:29:37.455 2020] [11080:19184] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Wed Jan 22 11:29:37.480 2020] [11080:19184] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Wed Jan 22 11:29:37.481 2020] [11080:19184] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Wed Jan 22 11:29:39.367 2020] [9824:18396] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Wed Jan 22 11:29:39.373 2020] [9824:18396] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Wed Jan 22 11:29:39.397 2020] [9824:18396] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Wed Jan 22 11:29:39.398 2020] [9824:18396] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Wed Jan 22 13:14:56.611 2020] [18540:20484] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Wed Jan 22 13:14:56.616 2020] [18540:20484] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Wed Jan 22 13:14:56.642 2020] [18540:20484] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Wed Jan 22 13:14:56.643 2020] [18540:20484] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Wed Jan 22 13:14:58.499 2020] [21148:20916] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Wed Jan 22 13:14:58.505 2020] [21148:20916] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Wed Jan 22 13:14:58.531 2020] [21148:20916] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Wed Jan 22 13:14:58.532 2020] [21148:20916] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Wed Jan 22 13:17:50.221 2020] [15588:14056] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Wed Jan 22 13:17:50.226 2020] [15588:14056] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Wed Jan 22 13:17:50.253 2020] [15588:14056] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Wed Jan 22 13:17:50.254 2020] [15588:14056] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Wed Jan 22 13:17:52.100 2020] [20652:20516] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Wed Jan 22 13:17:52.106 2020] [20652:20516] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Wed Jan 22 13:17:52.131 2020] [20652:20516] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Wed Jan 22 13:17:52.131 2020] [20652:20516] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Wed Jan 22 13:18:54.789 2020] [20616:19868] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Wed Jan 22 13:18:54.794 2020] [20616:19868] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Wed Jan 22 13:18:54.820 2020] [20616:19868] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Wed Jan 22 13:18:54.821 2020] [20616:19868] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Wed Jan 22 13:18:56.655 2020] [1892:9860] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Wed Jan 22 13:18:56.661 2020] [1892:9860] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Wed Jan 22 13:18:56.686 2020] [1892:9860] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Wed Jan 22 13:18:56.687 2020] [1892:9860] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Wed Jan 22 13:20:14.656 2020] [7900:18460] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Wed Jan 22 13:20:14.662 2020] [7900:18460] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Wed Jan 22 13:20:14.690 2020] [7900:18460] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Wed Jan 22 13:20:14.691 2020] [7900:18460] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Wed Jan 22 13:20:16.644 2020] [11160:18632] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Wed Jan 22 13:20:16.651 2020] [11160:18632] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Wed Jan 22 13:20:16.675 2020] [11160:18632] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Wed Jan 22 13:20:16.675 2020] [11160:18632] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Thu Jan 23 08:42:17.101 2020] [11160:9924] [info] jk_open_socket::jk_connect.c (816): connect to 127.0.0.1:18009 failed (errno=61)
+[Thu Jan 23 08:42:17.101 2020] [11160:9924] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1065): (worker1) Failed opening socket to (127.0.0.1:18009) (errno=61)
+[Thu Jan 23 08:42:17.101 2020] [11160:9924] [error] ajp_send_request::jk_ajp_common.c (1725): (worker1) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Thu Jan 23 08:42:17.101 2020] [11160:9924] [info] ajp_service::jk_ajp_common.c (2775): (worker1) sending request to tomcat failed (recoverable), because of error during request sending (attempt=1)
+[Thu Jan 23 08:42:19.217 2020] [11160:9924] [info] jk_open_socket::jk_connect.c (816): connect to 127.0.0.1:18009 failed (errno=61)
+[Thu Jan 23 08:42:19.218 2020] [11160:9924] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1065): (worker1) Failed opening socket to (127.0.0.1:18009) (errno=61)
+[Thu Jan 23 08:42:19.218 2020] [11160:9924] [error] ajp_send_request::jk_ajp_common.c (1725): (worker1) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Thu Jan 23 08:42:19.218 2020] [11160:9924] [info] ajp_service::jk_ajp_common.c (2775): (worker1) sending request to tomcat failed (recoverable), because of error during request sending (attempt=2)
+[Thu Jan 23 08:42:19.218 2020] [11160:9924] [error] ajp_service::jk_ajp_common.c (2796): (worker1) connecting to tomcat failed (rc=-3, errors=1, client_errors=0).
+[Thu Jan 23 08:42:19.218 2020] [11160:9924] [info] jk_handler::mod_jk.c (2991): Service error=-3 for worker=worker1
+[Thu Jan 23 09:14:37.885 2020] [8740:24072] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Thu Jan 23 09:14:37.893 2020] [8740:24072] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Thu Jan 23 09:14:37.925 2020] [8740:24072] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Thu Jan 23 09:14:37.927 2020] [8740:24072] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Thu Jan 23 09:14:40.084 2020] [17844:24540] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Thu Jan 23 09:14:40.090 2020] [17844:24540] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Thu Jan 23 09:14:40.116 2020] [17844:24540] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Thu Jan 23 09:14:40.117 2020] [17844:24540] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Thu Jan 23 17:22:58.330 2020] [21368:21660] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Thu Jan 23 17:22:58.336 2020] [21368:21660] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Thu Jan 23 17:22:58.363 2020] [21368:21660] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Thu Jan 23 17:22:58.364 2020] [21368:21660] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Thu Jan 23 17:23:00.414 2020] [19496:22516] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Thu Jan 23 17:23:00.420 2020] [19496:22516] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Thu Jan 23 17:23:00.445 2020] [19496:22516] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Thu Jan 23 17:23:00.446 2020] [19496:22516] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Thu Jan 23 17:31:03.408 2020] [24248:6892] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Thu Jan 23 17:31:03.414 2020] [24248:6892] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Thu Jan 23 17:31:03.441 2020] [24248:6892] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Thu Jan 23 17:31:03.442 2020] [24248:6892] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Thu Jan 23 17:31:05.370 2020] [23864:13972] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Thu Jan 23 17:31:05.376 2020] [23864:13972] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Thu Jan 23 17:31:05.400 2020] [23864:13972] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Thu Jan 23 17:31:05.401 2020] [23864:13972] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Thu Jan 23 17:40:57.114 2020] [7576:22972] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Thu Jan 23 17:40:57.120 2020] [7576:22972] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Thu Jan 23 17:40:57.147 2020] [7576:22972] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Thu Jan 23 17:40:57.148 2020] [7576:22972] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Thu Jan 23 17:40:59.578 2020] [23844:23164] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Thu Jan 23 17:40:59.587 2020] [23844:23164] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Thu Jan 23 17:40:59.615 2020] [23844:23164] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Thu Jan 23 17:40:59.616 2020] [23844:23164] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 28 08:59:57.013 2020] [3196:4184] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Tue Jan 28 08:59:57.018 2020] [3196:4184] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 28 08:59:57.044 2020] [3196:4184] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Tue Jan 28 08:59:57.045 2020] [3196:4184] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 28 08:59:58.949 2020] [25140:18904] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Tue Jan 28 08:59:58.954 2020] [25140:18904] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 28 08:59:58.981 2020] [25140:18904] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Tue Jan 28 08:59:58.982 2020] [25140:18904] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 28 09:25:23.378 2020] [6404:21580] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Tue Jan 28 09:25:23.383 2020] [6404:21580] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 28 09:25:23.408 2020] [6404:21580] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Tue Jan 28 09:25:23.409 2020] [6404:21580] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 28 09:25:25.283 2020] [6808:9148] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Tue Jan 28 09:25:25.289 2020] [6808:9148] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 28 09:25:25.316 2020] [6808:9148] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Tue Jan 28 09:25:25.317 2020] [6808:9148] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 28 09:32:55.903 2020] [21064:14648] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Tue Jan 28 09:32:55.910 2020] [21064:14648] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 28 09:32:55.936 2020] [21064:14648] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Tue Jan 28 09:32:55.937 2020] [21064:14648] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 28 09:32:57.722 2020] [640:18708] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Tue Jan 28 09:32:57.728 2020] [640:18708] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 28 09:32:57.752 2020] [640:18708] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Tue Jan 28 09:32:57.753 2020] [640:18708] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 28 09:36:38.230 2020] [17544:16948] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Tue Jan 28 09:36:38.236 2020] [17544:16948] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 28 09:36:38.264 2020] [17544:16948] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Tue Jan 28 09:36:38.265 2020] [17544:16948] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 28 09:36:40.261 2020] [24788:20540] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Tue Jan 28 09:36:40.267 2020] [24788:20540] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 28 09:36:40.293 2020] [24788:20540] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Tue Jan 28 09:36:40.294 2020] [24788:20540] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 28 16:03:21.758 2020] [10760:13912] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Tue Jan 28 16:03:21.764 2020] [10760:13912] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 28 16:03:21.792 2020] [10760:13912] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Tue Jan 28 16:03:21.793 2020] [10760:13912] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 28 16:03:23.643 2020] [12984:11224] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Tue Jan 28 16:03:23.649 2020] [12984:11224] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 28 16:03:23.673 2020] [12984:11224] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Tue Jan 28 16:03:23.674 2020] [12984:11224] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 28 16:19:44.702 2020] [15744:4628] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Tue Jan 28 16:19:44.708 2020] [15744:4628] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 28 16:19:44.734 2020] [15744:4628] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Tue Jan 28 16:19:44.735 2020] [15744:4628] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 28 16:19:46.720 2020] [11076:21856] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Tue Jan 28 16:19:46.726 2020] [11076:21856] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 28 16:19:46.753 2020] [11076:21856] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Tue Jan 28 16:19:46.754 2020] [11076:21856] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 28 16:24:19.387 2020] [240:23040] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Tue Jan 28 16:24:19.392 2020] [240:23040] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 28 16:24:19.418 2020] [240:23040] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Tue Jan 28 16:24:19.419 2020] [240:23040] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 28 16:24:21.267 2020] [12168:24704] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Tue Jan 28 16:24:21.272 2020] [12168:24704] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 28 16:24:21.296 2020] [12168:24704] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Tue Jan 28 16:24:21.297 2020] [12168:24704] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 28 16:28:49.367 2020] [23744:10680] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Tue Jan 28 16:28:49.372 2020] [23744:10680] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 28 16:28:49.397 2020] [23744:10680] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Tue Jan 28 16:28:49.398 2020] [23744:10680] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 28 16:28:51.251 2020] [21056:8004] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Tue Jan 28 16:28:51.257 2020] [21056:8004] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 28 16:28:51.283 2020] [21056:8004] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Tue Jan 28 16:28:51.284 2020] [21056:8004] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 28 16:47:58.919 2020] [13020:760] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Tue Jan 28 16:47:58.924 2020] [13020:760] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 28 16:47:58.950 2020] [13020:760] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Tue Jan 28 16:47:58.951 2020] [13020:760] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 28 16:48:00.789 2020] [16644:13652] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Tue Jan 28 16:48:00.795 2020] [16644:13652] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 28 16:48:00.821 2020] [16644:13652] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Tue Jan 28 16:48:00.822 2020] [16644:13652] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 28 17:43:54.334 2020] [23816:17164] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Tue Jan 28 17:43:54.340 2020] [23816:17164] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 28 17:43:54.365 2020] [23816:17164] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Tue Jan 28 17:43:54.366 2020] [23816:17164] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 28 17:43:56.249 2020] [25588:21020] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Tue Jan 28 17:43:56.255 2020] [25588:21020] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 28 17:43:56.279 2020] [25588:21020] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Tue Jan 28 17:43:56.280 2020] [25588:21020] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 28 17:45:20.599 2020] [25588:24776] [info] jk_open_socket::jk_connect.c (816): connect to 127.0.0.1:18009 failed (errno=61)
+[Tue Jan 28 17:45:20.599 2020] [25588:24776] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1065): (worker1) Failed opening socket to (127.0.0.1:18009) (errno=61)
+[Tue Jan 28 17:45:20.599 2020] [25588:24776] [error] ajp_send_request::jk_ajp_common.c (1725): (worker1) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Tue Jan 28 17:45:20.599 2020] [25588:24776] [info] ajp_service::jk_ajp_common.c (2775): (worker1) sending request to tomcat failed (recoverable), because of error during request sending (attempt=1)
+[Tue Jan 28 17:45:22.715 2020] [25588:24776] [info] jk_open_socket::jk_connect.c (816): connect to 127.0.0.1:18009 failed (errno=61)
+[Tue Jan 28 17:45:22.715 2020] [25588:24776] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1065): (worker1) Failed opening socket to (127.0.0.1:18009) (errno=61)
+[Tue Jan 28 17:45:22.715 2020] [25588:24776] [error] ajp_send_request::jk_ajp_common.c (1725): (worker1) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Tue Jan 28 17:45:22.715 2020] [25588:24776] [info] ajp_service::jk_ajp_common.c (2775): (worker1) sending request to tomcat failed (recoverable), because of error during request sending (attempt=2)
+[Tue Jan 28 17:45:22.715 2020] [25588:24776] [error] ajp_service::jk_ajp_common.c (2796): (worker1) connecting to tomcat failed (rc=-3, errors=1, client_errors=0).
+[Tue Jan 28 17:45:22.715 2020] [25588:24776] [info] jk_handler::mod_jk.c (2991): Service error=-3 for worker=worker1
+[Tue Jan 28 17:45:27.889 2020] [25588:3660] [info] jk_open_socket::jk_connect.c (816): connect to 127.0.0.1:18009 failed (errno=61)
+[Tue Jan 28 17:45:27.889 2020] [25588:3660] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1065): (worker1) Failed opening socket to (127.0.0.1:18009) (errno=61)
+[Tue Jan 28 17:45:27.889 2020] [25588:3660] [error] ajp_send_request::jk_ajp_common.c (1725): (worker1) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Tue Jan 28 17:45:27.889 2020] [25588:3660] [info] ajp_service::jk_ajp_common.c (2775): (worker1) sending request to tomcat failed (recoverable), because of error during request sending (attempt=1)
+[Tue Jan 28 17:45:30.003 2020] [25588:3660] [info] jk_open_socket::jk_connect.c (816): connect to 127.0.0.1:18009 failed (errno=61)
+[Tue Jan 28 17:45:30.003 2020] [25588:3660] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1065): (worker1) Failed opening socket to (127.0.0.1:18009) (errno=61)
+[Tue Jan 28 17:45:30.003 2020] [25588:3660] [error] ajp_send_request::jk_ajp_common.c (1725): (worker1) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Tue Jan 28 17:45:30.003 2020] [25588:3660] [info] ajp_service::jk_ajp_common.c (2775): (worker1) sending request to tomcat failed (recoverable), because of error during request sending (attempt=2)
+[Tue Jan 28 17:45:30.003 2020] [25588:3660] [error] ajp_service::jk_ajp_common.c (2796): (worker1) connecting to tomcat failed (rc=-3, errors=2, client_errors=0).
+[Tue Jan 28 17:45:30.003 2020] [25588:3660] [info] jk_handler::mod_jk.c (2991): Service error=-3 for worker=worker1
+[Tue Jan 28 17:45:44.295 2020] [25588:3660] [info] jk_open_socket::jk_connect.c (816): connect to 127.0.0.1:18009 failed (errno=61)
+[Tue Jan 28 17:45:44.295 2020] [25588:3660] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1065): (worker1) Failed opening socket to (127.0.0.1:18009) (errno=61)
+[Tue Jan 28 17:45:44.296 2020] [25588:3660] [error] ajp_send_request::jk_ajp_common.c (1725): (worker1) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Tue Jan 28 17:45:44.296 2020] [25588:3660] [info] ajp_service::jk_ajp_common.c (2775): (worker1) sending request to tomcat failed (recoverable), because of error during request sending (attempt=1)
+[Tue Jan 28 17:45:46.410 2020] [25588:3660] [info] jk_open_socket::jk_connect.c (816): connect to 127.0.0.1:18009 failed (errno=61)
+[Tue Jan 28 17:45:46.410 2020] [25588:3660] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1065): (worker1) Failed opening socket to (127.0.0.1:18009) (errno=61)
+[Tue Jan 28 17:45:46.410 2020] [25588:3660] [error] ajp_send_request::jk_ajp_common.c (1725): (worker1) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Tue Jan 28 17:45:46.410 2020] [25588:3660] [info] ajp_service::jk_ajp_common.c (2775): (worker1) sending request to tomcat failed (recoverable), because of error during request sending (attempt=2)
+[Tue Jan 28 17:45:46.410 2020] [25588:3660] [error] ajp_service::jk_ajp_common.c (2796): (worker1) connecting to tomcat failed (rc=-3, errors=3, client_errors=0).
+[Tue Jan 28 17:45:46.410 2020] [25588:3660] [info] jk_handler::mod_jk.c (2991): Service error=-3 for worker=worker1
+[Tue Jan 28 17:46:23.303 2020] [25588:3660] [info] jk_open_socket::jk_connect.c (816): connect to 127.0.0.1:18009 failed (errno=61)
+[Tue Jan 28 17:46:23.303 2020] [25588:3660] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1065): (worker1) Failed opening socket to (127.0.0.1:18009) (errno=61)
+[Tue Jan 28 17:46:23.304 2020] [25588:3660] [error] ajp_send_request::jk_ajp_common.c (1725): (worker1) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Tue Jan 28 17:46:23.304 2020] [25588:3660] [info] ajp_service::jk_ajp_common.c (2775): (worker1) sending request to tomcat failed (recoverable), because of error during request sending (attempt=1)
+[Tue Jan 28 17:46:25.418 2020] [25588:3660] [info] jk_open_socket::jk_connect.c (816): connect to 127.0.0.1:18009 failed (errno=61)
+[Tue Jan 28 17:46:25.418 2020] [25588:3660] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1065): (worker1) Failed opening socket to (127.0.0.1:18009) (errno=61)
+[Tue Jan 28 17:46:25.418 2020] [25588:3660] [error] ajp_send_request::jk_ajp_common.c (1725): (worker1) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Tue Jan 28 17:46:25.418 2020] [25588:3660] [info] ajp_service::jk_ajp_common.c (2775): (worker1) sending request to tomcat failed (recoverable), because of error during request sending (attempt=2)
+[Tue Jan 28 17:46:25.418 2020] [25588:3660] [error] ajp_service::jk_ajp_common.c (2796): (worker1) connecting to tomcat failed (rc=-3, errors=4, client_errors=0).
+[Tue Jan 28 17:46:25.418 2020] [25588:3660] [info] jk_handler::mod_jk.c (2991): Service error=-3 for worker=worker1
+[Tue Jan 28 17:49:38.869 2020] [25588:3660] [info] jk_open_socket::jk_connect.c (816): connect to 127.0.0.1:18009 failed (errno=61)
+[Tue Jan 28 17:49:38.870 2020] [25588:3660] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1065): (worker1) Failed opening socket to (127.0.0.1:18009) (errno=61)
+[Tue Jan 28 17:49:38.870 2020] [25588:3660] [error] ajp_send_request::jk_ajp_common.c (1725): (worker1) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Tue Jan 28 17:49:38.870 2020] [25588:3660] [info] ajp_service::jk_ajp_common.c (2775): (worker1) sending request to tomcat failed (recoverable), because of error during request sending (attempt=1)
+[Tue Jan 28 17:49:40.974 2020] [25588:3660] [info] jk_open_socket::jk_connect.c (816): connect to 127.0.0.1:18009 failed (errno=61)
+[Tue Jan 28 17:49:40.975 2020] [25588:3660] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1065): (worker1) Failed opening socket to (127.0.0.1:18009) (errno=61)
+[Tue Jan 28 17:49:40.975 2020] [25588:3660] [error] ajp_send_request::jk_ajp_common.c (1725): (worker1) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Tue Jan 28 17:49:40.975 2020] [25588:3660] [info] ajp_service::jk_ajp_common.c (2775): (worker1) sending request to tomcat failed (recoverable), because of error during request sending (attempt=2)
+[Tue Jan 28 17:49:40.975 2020] [25588:3660] [error] ajp_service::jk_ajp_common.c (2796): (worker1) connecting to tomcat failed (rc=-3, errors=5, client_errors=0).
+[Tue Jan 28 17:49:40.975 2020] [25588:3660] [info] jk_handler::mod_jk.c (2991): Service error=-3 for worker=worker1
+[Tue Jan 28 18:13:53.798 2020] [9612:23784] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Tue Jan 28 18:13:53.803 2020] [9612:23784] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 28 18:13:53.829 2020] [9612:23784] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Tue Jan 28 18:13:53.830 2020] [9612:23784] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 28 18:13:55.723 2020] [18740:20664] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Tue Jan 28 18:13:55.730 2020] [18740:20664] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Tue Jan 28 18:13:55.758 2020] [18740:20664] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Tue Jan 28 18:13:55.759 2020] [18740:20664] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Wed Jan 29 08:52:25.451 2020] [20324:15084] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Wed Jan 29 08:52:25.457 2020] [20324:15084] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Wed Jan 29 08:52:25.483 2020] [20324:15084] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Wed Jan 29 08:52:25.484 2020] [20324:15084] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Wed Jan 29 08:52:27.338 2020] [21584:14412] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Wed Jan 29 08:52:27.345 2020] [21584:14412] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Wed Jan 29 08:52:27.369 2020] [21584:14412] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Wed Jan 29 08:52:27.370 2020] [21584:14412] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Wed Jan 29 15:14:16.834 2020] [19328:9256] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Wed Jan 29 15:14:16.845 2020] [19328:9256] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Wed Jan 29 15:14:16.896 2020] [19328:9256] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Wed Jan 29 15:14:16.897 2020] [19328:9256] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Wed Jan 29 15:14:21.333 2020] [17460:22552] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Wed Jan 29 15:14:21.344 2020] [17460:22552] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Wed Jan 29 15:14:21.391 2020] [17460:22552] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Wed Jan 29 15:14:21.392 2020] [17460:22552] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Wed Jan 29 15:47:14.467 2020] [2104:14820] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Wed Jan 29 15:47:14.472 2020] [2104:14820] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Wed Jan 29 15:47:14.544 2020] [2104:14820] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Wed Jan 29 15:47:14.546 2020] [2104:14820] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Wed Jan 29 15:47:16.483 2020] [7448:15408] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Wed Jan 29 15:47:16.490 2020] [7448:15408] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
+[Wed Jan 29 15:47:16.524 2020] [7448:15408] [warn] jk_map_validate_property::jk_map.c (421): The attribute 'worker.worker1.cache_timeout' is deprecated - please check the documentation for the correct replacement.
+[Wed Jan 29 15:47:16.525 2020] [7448:15408] [info] init_jk::mod_jk.c (3591): mod_jk/1.2.46 initialized
