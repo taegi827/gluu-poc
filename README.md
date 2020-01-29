@@ -6,8 +6,9 @@
 [Apache24 환경 설정 해야하는 것들]
  1. Microsoft Visual C++ Redistributable Visual Studio 2015 설치해야 합니다.
  
- 2. Apache24\conf\httpd.conf 파일의 SRVROOT 경로를 자신의 경로에 맞게 설정해야 합니다. 
-    ex) Define SRVROOT "D:\자신의 경로\Apache24"
+ 2. Apache24\conf\httpd.conf 파일의 SRVROOT 경로를 자신의 경로에 맞게 설정해야 합니다.
+ 
+	ex) Define SRVROOT "D:\자신의 경로\Apache24"
 
 # Apache - Tomcat(Spring-boot) 연동 내용 설명
  - Apache와 Spring-Boot의 내장 톰켓을 mod_jk를 이용해 연동한 내용입니다.
